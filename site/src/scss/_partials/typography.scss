@@ -1,5 +1,36 @@
-h1, h2, h3 {
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-SemiBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("/fonts/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
   font-family: $FONT_HEADINGS;
+  font-weight: bold;
 }
 
 p {
@@ -21,7 +52,7 @@ h4 {
 
 .large-paragraph {
   // line-height: 33px;
-  font-size: calc($SCALE-1 + .1vw);
+  font-size: calc($SCALE-1 + 0.1vw);
   @media (min-width: $lg) {
     font-size: 1.2rem;
   }
