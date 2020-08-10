@@ -14,7 +14,7 @@ const criticalCSSTransform = require("./site/transforms/critical-css-transform.j
 // Import data files
 const site = require("./site/_data/site.js");
 
-module.exports = function(config) {
+module.exports = function (config) {
   // Filters
   config.addFilter("dateFilter", dateFilter);
   config.addFilter("markdownFilter", markdownFilter);
@@ -31,19 +31,57 @@ module.exports = function(config) {
 
   // Custom collections
   const now = new Date();
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection("posts", collection => {
-    return [
-      ...collection.getFilteredByGlob("./site/posts/*.md").filter(livePosts)
-    ].reverse();
+  const livePosts = (post) => post.date <= now && !post.data.draft;
+
+  const colors = [
+    "#FF89BC",
+    "#FFB469",
+    "#CBF0E8",
+    "#F86C5F",
+    "#01E7CB",
+    "#FFD672",
+    "#FFDEB5",
+  ];
+
+  config.addCollection("posts", (collection) => {
+    return collection
+      .getFilteredByGlob("./site/posts/*.md")
+      .filter(livePosts)
+      .reverse()
+      .map((post, i) => {
+        post.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        return post;
+      });
   });
 
-  config.addCollection("postFeed", collection => {
-    return [
-      ...collection.getFilteredByGlob("./site/posts/*.md").filter(livePosts)
-    ]
+  config.addCollection("externalPosts", (collection) => {
+    return collection
+      .getFilteredByGlob("./site/external-posts/*.md")
       .reverse()
-      .slice(0, site.postsPerPage);
+      .map((post, i) => {
+        post.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        return post;
+      });
+  });
+
+  config.addCollection("publications", (collection) => {
+    return collection
+      .getFilteredByGlob("./site/publications/*.md")
+      .reverse()
+      .map((item, i) => {
+        item.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        return item;
+      });
+  });
+
+  config.addCollection("presentations", (collection) => {
+    return collection
+      .getFilteredByGlob("./site/presentations/*.md")
+      .reverse()
+      .map((item, i) => {
+        item.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        return item;
+      });
   });
 
   // Passthrough
@@ -66,8 +104,8 @@ module.exports = function(config) {
   return {
     dir: {
       input: "site",
-      output: "dist"
+      output: "dist",
     },
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
   };
 };

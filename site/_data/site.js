@@ -1,12 +1,12 @@
 module.exports = {
-  name: "Supermaya",
-  shortDesc:
-    "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
+  name: "Knowledgy Lab",
+  shortDesc:"Leveraging family & community engagement learning",
   url: "",
-  authorEmail: "mike@madebymike.com.au",
-  authorHandle: "@MikeRiethmuller",
-  authorName: "Mike",
+  authorEmail: "hello@knowledgylab.com",
+  authorName: "Susan Beltran",
   postsPerPage: 4,
+  numPostsHomePage: 4,
+  numExternalPostsHomePage: 2,
   socialImage: "/img/social.jpg",
   theme: {
     primary: {
@@ -22,10 +22,10 @@ module.exports = {
   },
 
   keystone: {
-    comments: true,
-    bookmarks: true,
-    claps: true,
-    login: true,
+    comments: false,
+    bookmarks: false,
+    claps: false,
+    login: false,
   },
   // Critical CSS results in much slower build times and uses a lot of system resources
   // turn on in production :)

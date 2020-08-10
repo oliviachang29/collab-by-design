@@ -1,94 +1,34 @@
-.h1,
-h1,
-.h2,
-h2,
-.h3,
-h3,
-.h4,
-h4 {
-  line-height: calc(#{$RATIO} * 0.8);
+h1, h2, h3 {
   font-family: $FONT_HEADINGS;
-  font-weight: 700;
-  hyphens: none;
 }
-.h1,
+
+p {
+  font-family: $FONT_NORMAL;
+  font-size: 18px;
+  color: #2b2b2b;
+}
+
 h1 {
-  font-size: $SCALE-4;
+  font-size: calc(1.525rem + 3vw);
+  @media (min-width: $lg) {
+    font-size: $SCALE-3;
+  }
 }
-.h2,
-h2 {
-  font-size: $SCALE-3;
-}
-.h3,
-h3 {
-  font-size: $SCALE-2;
-}
-.h4,
+
 h4 {
-  font-size: $SCALE-1;
-}
-.h5,
-h5 {
-  font-size: $SCALE-0;
-}
-
-ul:not([class]),
-ol:not([class]) {
-  padding-left: 1.5em;
-}
-
-li:not([class]) {
-  padding-left: 0.25em;
-}
-
-blockquote {
-  margin-left: 1em;
-  padding-left: 1em;
-  border-left: solid 10px $COLOR_MID;
-  font-style: italic;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-td,
-th {
-  border: solid 1px $COLOR_MID;
-  text-align: left;
-  padding: 0.25em 0.75em;
-}
-
-pre:not([class]),
-code:not([class]) {
-  display: inline-block;
-  font-size: 0.85rem;
   font-family: $FONT_MONO;
-  background: $COLOR_LIGHTER;
-  border: solid 1px $COLOR_LIGHT;
 }
 
-pre:not([class]) {
-  min-width: 300px;
-  padding: 5px 10px;
+.large-paragraph {
+  // line-height: 33px;
+  font-size: calc($SCALE-1 + .1vw);
+  @media (min-width: $lg) {
+    font-size: 1.2rem;
+  }
 }
 
-code:not([class]) {
-  padding: 0 5px;
-}
-
-pre:not([class]) code:not([class]) {
-  font-size: 0.85rem;
-  font-family: inherit;
-  background: none;
-  border: none;
-  padding: 0;
-}
-
-pre {
-  padding: $SCALE_2;
-}
-
-pre code {
-  background: transparent;
+.mono {
+  font-family: $FONT_MONO;
+  font-size: 13px;
+  color: #000000;
 }

@@ -1,0 +1,47 @@
+---
+description: "My name is Susana, and I write about how learning technologies and family STEM inclusion can help empower families to unlock their children's potential for learning."
+socialImage: ""
+---
+
+{% extends 'layouts/base.njk' %}
+
+{# Button #}
+
+{% block content %}
+
+  <div class="row default-intro home-intro">
+    <div class="col-md-6 home-intro__left">
+      <div class="home-intro__text">
+        <h1 class="intro__title home-intro__title">Welcome to the {{site.name}}!</h1>
+        <p class="home-intro__desc large-paragraph">{{ description }}</p>
+      </div>
+    </div>
+    <div class="col-md-6 dot-grid-bg">
+      <img src="/uploads/intro_image.png" class="home-intro__image">
+    </div>
+  </div>
+
+  {# Post list content #}
+  {% set postListHeading = 'Latest blog posts' %}
+  {% set postListItems = collections
+    .posts
+    .slice(0, site.numPostsHomePage) %}
+  {% include "partials/post-list-home.njk" %}
+
+  {% set buttonText = "See more posts" %}
+  {% set buttonLink = '/posts' %}
+  {% set buttonClasses = 'btn-center' %}
+  {% include "partials/button.njk" %}
+
+  {# Post list content #}
+  {% set postListHeading = 'External posts' %}
+  {% set postListItems = collections
+    .externalPosts
+    .slice(0, site.numExternalPostsHomePage) %}
+  {% include "partials/work-list.njk" %}
+  {% set buttonText = "See more posts" %}
+  {% set buttonLink = '/work' %}
+  {% set buttonClasses = 'btn-center' %}
+  {% include "partials/button.njk" %}
+
+{% endblock %}

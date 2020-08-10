@@ -1,29 +1,46 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
-      "text": "Posts",
+      "text": "Blog",
       "url": "/posts",
+      "icon": "/icons/blog.svg",
       "external": false
     },
     {
-      "text": "Twitter",
-      "url": "https://twitter.com/MikeRiethmuller",
-      "external": true
+      "text": "Work",
+      "url": "/work",
+      "icon": "/icons/work.svg",
+      "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/madebymike/supermaya",
-      "external": true
+      "text": "About",
+      "url": "/about",
+      "icon": "/icons/about.svg",
+      "external": false
     },
     {
-      "text": "Feed",
-      "url": "/feed.xml",
-      "external": true
+      "text": "Contact",
+      "url": "/contact",
+      "icon": "/icons/contact.svg",
+      "external": false
+    }
+  ],
+  "social_media_icons": [
+    {
+      "type": "Facebook",
+      "url": "#"
+    },
+    {
+      "type": "Twitter",
+      "url": "#"
+    },
+    {
+      "type": "Linkedin",
+      "url": "#"
+    },
+    {
+      "type": "Email",
+      "url": "#"
     }
   ]
 }

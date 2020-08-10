@@ -73,7 +73,6 @@ const getWebpackConfig = targets => ({
   plugins: [
     new webpack.EnvironmentPlugin({
       NODE_ENV: "production",
-      KEYSTONE_API: "",
       BUILD_NUMBER: Date.now()
     })
   ]

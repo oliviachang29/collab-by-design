@@ -1,8 +1,10 @@
 $BASE_UNIT: 100px;
 
-$FONT_NORMAL: Helvetica Neue, Helvetica, Arial, sans-serif;
-$FONT_HEADINGS: Helvetica Neue, Helvetica, Arial, sans-serif;
-$FONT_MONO: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+$FONT_NORMAL: SpaceGrotesk-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+$FONT_HEADINGS: SpaceGrotesk-SemiBold, Helvetica Neue, Helvetica, Arial,
+  sans-serif;
+$FONT_MONO: SpaceMono-Regular, Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+  monospace;
 
 $RATIO: 1.4;
 
@@ -19,3 +21,12 @@ $COLOR_LIGHTER: #eaeaea;
 $COLOR_LIGHT: #ccc; // Do not use for text color
 $COLOR_MID: #767676; // Min contrast on white to pass WCAG2 AA
 $COLOR_DARK: #333;
+
+/* bootstrap media queries */
+$xs: 480px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xlg: 1300px;
+
+$turquoise: #01e7cb;

@@ -1,42 +1,7 @@
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-
-.skip-content:focus {
-  top: 0;
-  border: 0;
-  clip: unset;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  padding: 0;
-  width: auto;
-  white-space: wrap;
-}
-
-.invert-link {
-  text-decoration: none;
-}
-
-.invert-link:hover,
-.invert-link:focus {
-  text-decoration: underline;
-}
-
-.theme-bg {
-  background: var(--THEME_BACKGROUND, white);
-}
-.theme-color {
-  color: var(--THEME_COLOR, black);
-}
-
-.theme-hightlight {
-  color: var(--THEME_HIGHTLIGHT, yellow);
+@mixin smooth-transition {
+  -webkit-transition: all 0.25s; /* Safari and Chrome */
+  -moz-transition: all 0.25s; /* Firefox */
+  -ms-transition: all 0.25s; /* IE 9 */
+  -o-transition: all 0.25s; /* Opera */
+  transition: all 0.25s;
 }

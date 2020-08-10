@@ -1,0 +1,44 @@
+$btn-color: $turquoise;
+.btn {
+  background-color: $btn-color;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: $FONT_MONO;
+  font-size: 18px;
+  border: 1px solid $btn-color;
+  &:hover {
+    border: 1px solid black;
+    background-color: transparent;
+  }
+}
+
+.btn-center {
+  display: block;
+  width: fit-content;
+  margin: $SCALE-3 auto $SCALE-5;
+}
+
+.dot-grid-bg {
+  background: url("/dot-grid.png");
+}
+
+$section-heading-line-height: 13%;
+.section-heading {
+  width: fit-content;
+  padding-right: 2 * $SCALE-5;
+  @media (min-width: $md) {
+    padding-right: 4 * $SCALE-5;
+  }
+  background: linear-gradient(
+    to top,
+    #ffd672 $section-heading-line-height,
+    transparent $section-heading-line-height
+  );
+  margin-bottom: $SCALE-4;
+  h4 {
+    font-size: 17px;
+    background-color: #ffd672;
+    padding: 9px $SCALE-1;
+  }
+}

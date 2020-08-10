@@ -1,0 +1,22 @@
+<footer>
+  <div class="footer__left">
+    <h3 class="footer__name">{{ site.name }}</h3>
+
+    {% if site.shortDesc %}
+      <p class="footer__desc">{{ site.shortDesc }}</p>
+    {% endif %}
+
+    <p class="footer__copyright">&copy; {{site.name}}. All rights reserved.</p>
+  </div>
+  <div class="footer__right">
+    <ul id="footer-social-media">
+      {% include "partials/social-media-icons.njk" %}
+    </ul>
+
+    {% set navItems = navigation.items %}
+    {% set navType = 'footer' %}
+    <ul id="footer-links">
+      {% include "partials/global/nav-links.njk" %}
+    </ul>
+  </div>
+</footer>

@@ -1,0 +1,25 @@
+{% if postListItems.length %}
+  {% if postListHeading %}
+    <div class="section-heading">
+      <h4>{{ postListHeading }}</h4>
+    </div>
+  {% endif %}
+  <div class="row list  work-list">
+    {% for item in postListItems %}
+      <div class="col-lg-6 list-item__container work-list-item__outer-container" style="border-left-color:{{item.color}}">
+        <a href="{{ item.url }}" rel="bookmark">
+          <div class="work-list-item__inner-container">
+            <h2 class="list-item__title work-list-item__title">{{ item.data.title }}</h2>
+            <p class="list-item__description work-list-item__description">{{item.data.description}}</p>
+            <div class="work-list-item__bottom">
+              <p class="mono work-list-item__location">{{item.data.location}}</p>
+              <p>
+                <time class="mono list-item__date work-list-item__date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,10 +1,7 @@
-{% set pageTitle = title + ' - ' + site.name %}
-
-{% if metaTitle %}
-  {% set pageTitle = metaTitle %}
-{% endif %}
-
-<title>{{ pageTitle }}</title>
+<title>
+  {% if title %}
+    {{ title }} | 
+{% endif %}{{ site.name }}</title>
 
 <meta property="og:site_name" content="{{ site.name }}"/>
 <meta property="og:title" content="{{ pageTitle }}"/>
@@ -21,7 +18,8 @@
   <meta property="og:description" content="{{ metaDescription }}"/>
 {% endif %}
 
-{% set socialImage = social_image if social_image else site.socialImage %}
+{% set socialImage = social_image if social_image else 
+  site.socialImage %}
 
 {% if socialImage %}
   <meta property="og:image" content="{{ socialImage }}"/>
@@ -29,7 +27,6 @@
   <meta property="og:image:alt" content="Page image for {{ site.name }}"/>
   <meta name="twitter:image:alt" content="Page image for {{ site.name }}"/>
 {% endif %}
-
 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

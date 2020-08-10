@@ -1,0 +1,119 @@
+.list {
+  padding-left: $SCALE-1;
+}
+
+.list-item__container {
+  margin-bottom: $SCALE-2;
+  @media (min-width: $md) {
+    margin-bottom: $SCALE-5;
+  }
+  *:hover {
+    text-decoration: none;
+  }
+}
+
+.list-item__date {
+  color: $COLOR_MID;
+}
+
+.list-item__title {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+// POSTS
+
+.post-list-item__outer-container {
+  // dottedleft border
+  background-image: linear-gradient(gray 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: left;
+  background-size: 1px 10px;
+  background-repeat: repeat-y;
+  margin-bottom: $SCALE-5;
+}
+
+.post-list-item__outer-container:nth-last-child(2),
+.post-list-item__outer-container:last-child {
+  margin-bottom: $SCALE-2;
+}
+
+.post-list-item__inner-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: $SCALE-1 * 0.5;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+    padding-left: $SCALE-2;
+  }
+
+  *:hover {
+    text-decoration: none;
+  }
+
+  &:hover {
+    .post-list-item__read-more {
+      margin-left: 10px;
+    }
+  }
+}
+
+.post-list-item__left {
+  @media (min-width: $md) {
+    margin: $SCALE-1 $SCALE-3 0 $SCALE-2;
+    text-align: center;
+  }
+}
+
+.post-list-item__image {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: -20px -20px;
+  margin-left: $SCALE-1;
+  margin-bottom: $SCALE-2;
+  @media (min-width: $md) {
+    width: 2 * $SCALE-4;
+    height: 2 * $SCALE-4;
+    margin: 0;
+  }
+}
+
+.post-list-item__date {
+  text-align: center;
+  margin-bottom: $SCALE-2;
+}
+
+.post-list-item__read-more {
+  margin-top: $SCALE-2;
+  font-weight: bold;
+  font-family: $FONT_MONO;
+  font-size: 16px;
+  @include smooth-transition;
+}
+
+// WORK
+
+.work-list-item__outer-container {
+  border-left: 20px solid;
+  margin-bottom: $SCALE-3;
+  &:hover .work-list-item__inner-container {
+    transform: translateX($SCALE-1 * 0.5);
+  }
+}
+
+.work-list-item__inner-container {
+  @include smooth-transition;
+  padding: $SCALE-2 $SCALE-3 $SCALE-1 $SCALE-1;
+  @media (min-width: $md) {
+    padding-left: $SCALE-2;
+  }
+}
+
+.work-list-item__bottom {
+  margin-top: $SCALE-2;
+  @media (min-width: $sm) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

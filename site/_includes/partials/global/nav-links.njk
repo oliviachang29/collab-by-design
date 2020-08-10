@@ -1,0 +1,25 @@
+{% for item in navItems %}
+  {% set externalAttribute = '' %}
+  {% set currentAttribute = '' %}
+
+  {% if item.external %}
+    {% set externalAttribute = ' rel="external"' %}
+  {% endif %}
+
+  {% if page.url == item.url %}
+    {% set currentAttribute = ' aria-current="page"' %}
+  {% endif %}
+
+  {% if navType == 'navbar' %}
+    <li class="nav-item">
+      <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+        <img src="{{item.icon}}" class="nav-item__icon">
+        <p class="nav-link">{{ item.text }}</p>
+      </a>
+    </li>
+  {% elseif navType == 'footer' %}
+    <li class="footer-link">
+      <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>{{item.text}}</a>
+    </li>
+  {% endif %}
+{% endfor %}

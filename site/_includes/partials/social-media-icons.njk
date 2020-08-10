@@ -1,0 +1,27 @@
+{% for link in navigation.social_media_icons %}
+	{% if link.url and link.url != "" and link.url != nil %}
+		<a class="contact-icon" target="_blank" href="{{link.url}}">
+			<i class="
+				{% if link.type == 'Twitter' %}
+						fab fa-twitter
+				{% elseif link.type == 'Facebook' %}
+					fab fa-facebook
+				{% elseif link.type == 'Email' %}
+					fas fa-envelope
+				{% elseif link.type == 'Instagram' %}
+					fab fa-instagram
+				{% elseif link.type == 'Linkedin' %}
+					fab fa-linkedin
+				{% elseif link.type == 'Github' %}
+					fab fa-github
+				{% elseif link.type == 'Youtube' %}
+					fab fa-youtube
+				{% elseif link.type == 'Snapchat' %}
+					fab fa-snapchat-ghost
+				{% elseif link.type == 'Discord' %}
+					fab fa-discord
+				{% endif %}
+				"></i>
+		</a>
+	{% endif %}
+{% endfor %}

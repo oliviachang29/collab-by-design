@@ -11,35 +11,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
-    
-    {% if site.theme %}
-    <style>
-      :root {
-        {% if site.theme.secondary.background %}
-          --THEME_BACKGROUND: {{site.theme.primary.background}};
-        {% endif %}
-        {% if site.theme.primary.text %}
-          --THEME_COLOR: {{site.theme.primary.text}};
-        {% endif %}
-        {% if site.theme.primary.highlight %}
-          --THEME_HIGHLIGHT: {{site.theme.primary.highlight}};
-        {% endif %}
-      }
 
-      .theme-secondary {
-        {% if site.theme.secondary.background %}
-          --THEME_BACKGROUND: {{site.theme.secondary.background}};
-        {% endif %}
-        {% if site.theme.secondary.text %}
-          --THEME_COLOR: {{site.theme.secondary.text}};
-        {% endif %}
-        {% if site.theme.secondary.highlight %}
-          --THEME_HIGHLIGHT: {{site.theme.secondary.highlight}};
-        {% endif %}
-      }
-    </style>
+    {% if site.theme %}
+      <style>
+        :root {
+          {% if site.theme.secondary.background %}
+            --THEME_BACKGROUND: {{site.theme.primary.background}};
+          {% endif %}
+          {% if site.theme.primary.text %}
+            --THEME_COLOR: {{site.theme.primary.text}};
+          {% endif %}
+          {% if site.theme.primary.highlight %}
+            --THEME_HIGHLIGHT: {{site.theme.primary.highlight}};
+          {% endif %}
+        }
+
+        .theme-secondary {
+          {% if site.theme.secondary.background %}
+            --THEME_BACKGROUND: {{site.theme.secondary.background}};
+          {% endif %}
+          {% if site.theme.secondary.text %}
+            --THEME_COLOR: {{site.theme.secondary.text}};
+          {% endif %}
+          {% if site.theme.secondary.highlight %}
+            --THEME_HIGHLIGHT: {{site.theme.secondary.highlight}};
+          {% endif %}
+        }
+      </style>
     {% endif %}
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main.css">
 
     {% if extra_css %}
@@ -48,28 +49,27 @@
       {% endfor %}
     {% endif %}
 
-    {% include "partials/services/keystone-login-styles.njk" %}
-
     {% include "partials/global/meta-info.njk" %}
     {% block head %}{% endblock %}
 
   </head>
   <body>
-    <a class="visually-hidden skip-content" href="#main-content">Skip to content</a>
-    <div class="l-page">
-      {% include "partials/global/site-head.njk" %}
-      <main id="main-content" tabindex="-1">
-        <div class="l-stack l-stack--large">
-          {% block content %}{% endblock content %}
-          {% block foot %}
-            {% include "partials/global/site-foot.njk" %}
-          {% endblock %}
-        </div>
-      </main>
+
+    {% include "partials/global/navbar.njk" %}
+    <div class="container">
+      {% block content %}{% endblock content %}
+      {% block foot %}
+        {% include "partials/global/footer.njk" %}
+      {% endblock %}
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="/js/service-worker.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
-    {% include "partials/services/keystone-login-scripts.njk" %}
+    <script src="https://kit.fontawesome.com/e9fbab1eb8.js" crossorigin="anonymous"></script>
     {% if extra_js %}
       {% for item in extra_js %}
         <script type="text/javascript" src="{{item}}"></script>
