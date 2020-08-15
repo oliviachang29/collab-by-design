@@ -1,4 +1,7 @@
 <div class="intro default-intro">
-  <h1 class="intro__title default-intro__title">{{ title }}</h1>
-  <p class="default-intro__desc large-paragraph">{{ description }}</p>
+  {% if date %}
+    <p class="post-intro__date mono">{{ date | dateFilter}}</p>
+  {% endif %}
+  <h1 class="intro__title default-intro__title">{{  introTitle  }}</h1>
+  <p class="default-intro__desc large-paragraph">{{ introDescription }}</p>
 </div>

@@ -1,0 +1,46 @@
+.post-page__container {
+  padding: 0 $SCALE-1;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.post-page__content h1 {
+  margin-top: $SCALE-4;
+  padding-bottom: $SCALE-4;
+}
+
+.post-page__content h2 {
+  margin-top: $SCALE-4;
+  padding-bottom: $SCALE-3;
+}
+
+.post-page__content h3 {
+  margin-top: $SCALE-3;
+  padding-bottom: $SCALE-1;
+}
+
+.post-page__content p {
+  font-size: calc(1.2rem + 0.05vw);
+  line-height: calc(2rem + 0.05vw);
+  margin-bottom: $SCALE-1;
+}
+
+.post-page__content img {
+  margin: $SCALE-2 auto;
+}
+
+.post-page__content iframe {
+  width: 100%;
+  height: 385px;
+  margin: $SCALE-1 0;
+}
+
+.post-page__tags-text {
+  font-family: $FONT-MONO;
+  margin: $SCALE-4 0 $SCALE-5;
+  font-size: 15px;
+}
+
+.post-page__indv-tag {
+  color: $COLOR_MID;
+}

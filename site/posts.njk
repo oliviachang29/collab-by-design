@@ -1,5 +1,5 @@
 --- 
-title: Posts 
+title: Blog Posts 
 pagination: 
   data: collections.posts
   size: 5
@@ -9,7 +9,7 @@ pagination:
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introHeading %}Posts{% endset %}
+{% set introTitle = title %}
 
 {# Post list content #}
 {% set postListItems = posts %}
@@ -21,9 +21,7 @@ pagination:
 {% endif %}
 
 {% block content %}
-  <div class="l-stack l-stack--large l-stack--large">
-    {% include "partials/intro.njk" %}
-    {% include "partials/post-list.njk" %}
-    {% include "partials/pagination.njk" %}
-  </div>
+  {% include "partials/intro.njk" %}
+  {% include "partials/post-list.njk" %}
+  {% include "partials/pagination.njk" %}
 {% endblock %}

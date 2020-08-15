@@ -2,49 +2,40 @@
 
 {% set authorName = author if author else 
   site.authorName %}
-{% set introSummary %}
-<div class="l-stack">
-  {% if description %}
-    <p class="post-description">{{ description | safe }}</p>
-  {% endif %}
-  <p class="post-meta">
-    {% if date %}
-      Posted by {{ authorName }}
-      on <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-    {% endif %} (about a {{ helpers.getReadingTime(content) }} minute read).
-  </p>
-</div>
-{% endset %}
+
+<p class="post-page__meta">
+  {% if date %}
+  Posted by
+  on <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+  {% endif %} (about a {{ helpers.getReadingTime(content) }} minute read).
+</p>
 
 {% block content %}
-  <div class="l-stack">
-    <article class="h-entry t-page" class="l-container">
-      <div class="l-stack l-stack--large">
-        {% include "partials/post-intro.njk" %}
-        <div class="l-container l-measure">
-          <div class="l-stack" >
-            {{ content | safe }}
-          </div>
-        </div>
-      </div>
-    </article>
-    <div class="l-container">
-      <footer class="l-stack">
-        {% if tags %}
-          <h2>Tags</h2>
-        {% endif %}
-        <div class="l-post-footer">
-          {% if tags %}
-            <ul class="l-post-tags">
-              {% for item in tags %}
-                <li>
-                  <a class="post-tag" href="/tags/{{ item }}">{{ item }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </footer>
-      </div>
+
+<article>
+  {% if featured_image %}
+    {% set color = page.color %}
+    {% include "partials/post-intro.njk" %}
+  {% endif %}
+  
+  <div class="post-page__container">
+    {% if not featured_image %}
+      {% set introTitle = title %}
+      {% set introDescription = description %}
+      {% include "partials/intro.njk" %}
+    {% endif %}
+    <div class="post-page__content">
+      {{ content | safe }}
     </div>
+
+    <p class="post-page__tags-text">
+      <strong>Tags: </strong>
+      {% for item in tags %}
+      <a class="post-page__indv-tag" href="/tags/{{ item }}">{{ item }}</a>{% if not loop.last %}, {% endif%}{% endfor %}
+    </p>
   </div>
+</article>
+
+{% if tags %}{% endif %}
+
 {% endblock %}

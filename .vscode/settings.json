@@ -1,6 +1,6 @@
 {
   "emmet.includeLanguages": {
     "nunjucks": "html"
-},
-"editor.formatOnSave": true
+  }
+  // "editor.formatOnSave": true
 }

@@ -1,12 +1,12 @@
 {% if postListItems.length %}
   {% if postListHeading %}
-    <div class="section-heading">
-      <h4>{{ postListHeading }}</h4>
-    </div>
+    {% set sectionTitle = postListHeading %}
+    {% set sectionHeadingClass = 'post-section-heading' %}
+    {% include "partials/section-heading.njk" %}
   {% endif %}
   <div class="row list  work-list">
     {% for item in postListItems %}
-      <div class="col-lg-6 list-item__container work-list-item__outer-container" style="border-left-color:{{item.color}}">
+      <div class="col-lg-6 list-item__container work-list-item__outer-container" style="border-left-color:{{item.data.color}}">
         <a href="{{ item.url }}" rel="bookmark">
           <div class="work-list-item__inner-container">
             <h2 class="list-item__title work-list-item__title">{{ item.data.title }}</h2>

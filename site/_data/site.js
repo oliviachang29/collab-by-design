@@ -1,10 +1,10 @@
 module.exports = {
   name: "Knowledgy Lab",
-  shortDesc:"Leveraging family & community engagement learning",
+  shortDesc: "Leveraging family & community engagement learning",
   url: "",
   authorEmail: "hello@knowledgylab.com",
-  authorName: "Susan Beltran",
-  postsPerPage: 4,
+  authorName: "Susana Beltran",
+  postsPerPage: 6,
   numPostsHomePage: 4,
   numExternalPostsHomePage: 2,
   socialImage: "/img/social.jpg",

@@ -1,6 +1,6 @@
 footer {
   padding-top: $SCALE-3;
-  margin-bottom: $SCALE-5;
+  margin: $SCALE-5 0;
   border-top: 1.8px dashed $COLOR_LIGHTER;
   display: flex;
   flex-direction: column-reverse;
@@ -39,12 +39,16 @@ footer {
   color: $COLOR_MID;
   margin-left: $SCALE-1;
   font-family: $FONT_MONO;
+  font-size: 15px;
 }
 
 #footer-social-media {
   display: flex;
-  justify-content: flex-end;
   margin-bottom: $SCALE-1;
+  justify-content: center;
+  @media (min-width: $md) {
+    justify-content: flex-end;
+  }
   a {
     margin-left: $SCALE-1;
     font-size: $SCALE-1;

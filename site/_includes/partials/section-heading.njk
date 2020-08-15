@@ -1,0 +1,7 @@
+<div class="section-heading {{ sectionHeadingClass }}" {% if sectionColor %}style="background: linear-gradient(
+    to top,
+    {{sectionColor}} 13%,
+    transparent 13%
+  )"{% endif %}>
+  <h4 {% if sectionColor %}style="background-color: {{sectionColor}}"{% endif %}>{{ sectionTitle }}</h4>
+</div>

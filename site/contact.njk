@@ -1,0 +1,63 @@
+--- 
+title: Contact Me
+description: Questions? Comments? Please fill out the form below and I will reply within 48 hours.
+form_fields:
+  - title: "Your name"
+    type: 'single_line'
+  - title: "Your email address"
+    type: 'single_line'
+  - title: "Reason for contact"
+    type: 'dropdown'
+    dropdown_options:
+      - Workshop booking
+      - Presentation
+      - Help with something
+      - Writing requests
+      - Other
+  - title: 'Your message'
+    type: 'multiline'
+---
+
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introTitle = title %}
+{% set introDescription = description %}
+
+{% block content %}
+  <div class="contact-page__container">
+    {% include "partials/intro.njk" %}
+
+    {% set sectionTitle = "Contact Form" %}
+    {% set sectionColor = "#CBF0E8" %}
+    {% set sectionHeadingClass = 'about-section-heading' %}
+    {% include "partials/section-heading.njk" %}
+
+    <form name="contact" method="POST" action="/success" netlify netlify-honeypot="bot-field">
+      {% for field in form_fields %}
+        {% if field.type === 'single_line' %}
+          <input class="form-control form-control-text" type="text" name="{{field.title}}" placeholder="{{field.title}}"/>
+        {% endif %}
+
+        {% if field.type === 'multiline' %}
+          <textarea class="form-control form-control-text" name="{{field.title}}" placeholder="{{field.title}}" rows="8"></textarea>
+        {% endif %}
+
+        {% if field.type === 'dropdown' %}
+          <select class="form-control" name="{{field.title}}">
+            <option selected>{{field.title}}</option>
+            {% for option in field.dropdown_options %}
+              <option value="{{option }}">{{option}}</option>
+            {% endfor %}
+          </select>
+        {% endif %}
+
+      {% endfor %}
+
+      <div data-netlify-recaptcha="true"></div>
+      <div class="honeypot"><input name="bot-field"/></div>
+
+      <button type="submit" class="btn contact__submit-button">Send</button>
+    </form>
+  </div>
+{% endblock %}

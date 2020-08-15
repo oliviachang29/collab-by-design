@@ -16,17 +16,13 @@ permalink: /tags/{{ tag }}/
 
 {% extends 'layouts/base.njk' %}
 
-{# Intro content #}
-{% set introHeading %}Posts{% endset %}
-
 {# Post list content #}
-{% set postListHeading %}Posts tagged: “{{ tag }}”{% endset %}
 {% set postListItems = collections[tag] %}
+{% set introTitle %}#{{ tag }}{% endset %}
+{% set introDescription %}{{ postListItems.length}} posts{% endset %}
 
 {% block content %}
-  <div class="l-stack l-stack--large">
-    {% include "partials/intro.njk" %}
-    {% include "partials/post-list.njk" %}
-    {% include "partials/pagination.njk" %}
-  </div>
+  {% include "partials/intro.njk" %}
+  {% include "partials/post-list.njk" %}
+  {% include "partials/pagination.njk" %}
 {% endblock %}

@@ -11,13 +11,16 @@
 @import "./_partials/list";
 @import "./_partials/site-head";
 @import "./_partials/navigation";
-@import "./_partials/post-stack";
+@import "./_partials/post-page";
 @import "./_partials/site-name";
 @import "./_partials/page";
 @import "./_partials/post-tags";
 @import "./_partials/site-title";
 
 // Home
-@import "./_home/intro";
+@import "./_partials/intro";
 
-@import "./globals"
+@import "./_partials/about";
+@import "./_partials/contact";
+
+@import "./globals";

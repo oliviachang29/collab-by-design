@@ -1,3 +1,10 @@
+.base-container {
+  padding: 0 2rem;
+  @media (min-width: $lg) {
+    // max-width: ;
+  }
+}
+
 $btn-color: $turquoise;
 .btn {
   background-color: $btn-color;
@@ -16,29 +23,30 @@ $btn-color: $turquoise;
 .btn-center {
   display: block;
   width: fit-content;
-  margin: $SCALE-3 auto $SCALE-5;
+  margin: 0 auto $SCALE-5;
 }
 
 .dot-grid-bg {
   background: url("/dot-grid.png");
 }
-
-$section-heading-line-height: 13%;
 .section-heading {
   width: fit-content;
   padding-right: 2 * $SCALE-5;
   @media (min-width: $md) {
     padding-right: 4 * $SCALE-5;
   }
-  background: linear-gradient(
-    to top,
-    #ffd672 $section-heading-line-height,
-    transparent $section-heading-line-height
-  );
-  margin-bottom: $SCALE-4;
+  background: linear-gradient(to top, #ffd672 13%, transparent 13%);
   h4 {
     font-size: 17px;
     background-color: #ffd672;
     padding: 9px $SCALE-1;
   }
+}
+
+.post-section-heading {
+  margin-bottom: $SCALE-4;
+}
+
+.about-section-heading {
+  margin-bottom: $SCALE-2;
 }

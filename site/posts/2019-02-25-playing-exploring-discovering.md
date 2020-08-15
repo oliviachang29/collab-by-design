@@ -1,15 +1,15 @@
 ---
 title: Playing, exploring, and discovering inspired by media & technology
-description: This past week, as part of my regular job, I co-presented and trained several public media stations and their community partners on a space and earth science curricula. 
+description: This past week, as part of my regular job, I co-presented and trained several public media stations and their community partners on a space and earth science curricula.
 date: "2019-02-25"
 tags:
-- Early Childhood
-- early learning
-- ECE
-- EdChat
-- EdTech
-- media
-- Playful Learning Experiences
+  - Early Childhood
+  - early learning
+  - ECE
+  - EdChat
+  - EdTech
+  - media
+  - Playful Learning Experiences
 featured_image: "/uploads/playing-exploring.jpg"
 ---
 
@@ -19,13 +19,13 @@ In writing this curriculum, our team was inspired by several media collections o
 
 The process of inspiration from media and technology access, made me think about early childhood practitioners and their fear and apprehension about the integration of media and technology for learning. If we, as adults mediated hands-on content creation inspired by educational media content, how can educators and families also view media and technology as a learning tool?
 
-[embed]https://www.youtube.com/watch?v=OWBhFOyr5Ow[/embed]
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OWBhFOyr5Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Research has shown that early childhood education has positive long-term effects in children, especially those in low-income communities. Enhancing the opportunities for children to read and write and gain skills in math in the early years will provide children with long-term benefits of improved literacy and math skills and the likelihood of graduation from high school. However, with the introduction of technology and new media literacy tools, children can have more learning opportunities and access to different resources and more likely to gain and improved skills in language, vocabulary, and math (Fisch, Truglio and Cole 1999; McCarthy, Li, Tiu and Atienza 2013; Silverman and Hines, 2009; Verhallen, Bus, and Jong, 2006).
 
 One key aspect that further early learning outcomes are the interactive multimedia tools that impact children thinking and language skills. Multimedia storytelling may support the learning of stories by remembering linguistic information (Verhallen, Bus &amp; de Jong, 2006). Storytelling like Jet and his friend wanting to put their own rover Mars can lead to the creation of a project-based how to make a rover curriculum to inspire in children hands-on creativity, critical thinking, and collaboration.
 
-[embed]https://www.youtube.com/watch?v=1sLVJO1hclU[/embed]
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1sLVJO1hclU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Integration of media and technology can create a path for learning opportunities in young children [and adults] (McManis &amp; Gunnewig, 2012) but without the adult meditation and guidance, technology and media cannot fulfill its potential as a learning tool. Just like Fisher (2006) states, “the role of tech is not to produce change; rather, teachers are the agent of change." We shouldn't forget that <em>𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬 </em><em>𝐚𝐫𝐞 a </em><em>𝐤𝐞𝐲 </em><em>𝐟𝐚𝐜𝐭𝐨𝐫 </em><em>𝐢𝐧 </em><em>𝐭𝐡𝐞 </em><em>𝐢𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐨𝐧 </em><em>𝐨𝐟 </em><em>𝐭𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 </em><em>𝐚𝐧𝐝 </em><em>𝐦𝐞𝐝𝐢𝐚</em>.
 

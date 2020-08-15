@@ -8,6 +8,8 @@ description: "Working papers, conferences, and poster paper presentations."
 {# Button #}
 
 {% block content %}
+    {% set introTitle = title %}
+    {% set introDescription = description %}
     {% include "partials/intro.njk" %}
 
     {# External posts #}

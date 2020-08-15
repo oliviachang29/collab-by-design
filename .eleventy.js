@@ -49,7 +49,7 @@ module.exports = function (config) {
       .filter(livePosts)
       .reverse()
       .map((post, i) => {
-        post.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        post.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
         return post;
       });
   });
@@ -59,7 +59,7 @@ module.exports = function (config) {
       .getFilteredByGlob("./site/external-posts/*.md")
       .reverse()
       .map((post, i) => {
-        post.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        post.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
         return post;
       });
   });
@@ -69,7 +69,7 @@ module.exports = function (config) {
       .getFilteredByGlob("./site/publications/*.md")
       .reverse()
       .map((item, i) => {
-        item.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        item.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
         return item;
       });
   });
@@ -79,7 +79,7 @@ module.exports = function (config) {
       .getFilteredByGlob("./site/presentations/*.md")
       .reverse()
       .map((item, i) => {
-        item.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        item.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
         return item;
       });
   });

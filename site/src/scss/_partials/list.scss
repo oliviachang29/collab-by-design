@@ -1,5 +1,6 @@
 .list {
   padding-left: $SCALE-1;
+  padding-bottom: $SCALE-2;
 }
 
 .list-item__container {
@@ -34,7 +35,9 @@
 
 .post-list-item__outer-container:nth-last-child(2),
 .post-list-item__outer-container:last-child {
-  margin-bottom: $SCALE-2;
+  @media (min-width: $lg) {
+    margin-bottom: 0;
+  }
 }
 
 .post-list-item__inner-container {

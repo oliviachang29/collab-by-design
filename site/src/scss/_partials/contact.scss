@@ -1,0 +1,25 @@
+.contact-page__container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.honeypot {
+  display: none;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  border-radius: 0;
+  border: 1px solid $COLOR_LIGHTER;
+  height: auto;
+  padding: 1.5rem 2rem;
+  font-family: $FONT_MONO;
+}
+
+.form-control-text {
+  
+}
+
+.contact__submit-button {
+  margin-top: $SCALE-3;
+}

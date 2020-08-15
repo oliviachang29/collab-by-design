@@ -3,9 +3,9 @@ title: Can early education online learning be situated?
 description: This week, I had the opportunity to attend a training to test new early learning curricula. The focus of this curricula is for families and children to use scientific inquiry practices to extend the concepts discovered in an online game or app.
 date: "2018-02-24"
 tags:
-- ECE
-- EdTech
-- Situated Learning
+  - ECE
+  - EdTech
+  - Situated Learning
 featured_image: "/uploads/can-early-education-online.jpg"
 ---
 
@@ -23,7 +23,7 @@ Here is what we know about situated learning:
 
 Taking these four core concepts of situated learning into early education online learning can be effective when a blending and balancing of technology, media and interactions happen. Media for early learning has the potential to present children with learning opportunities. Online learning should spark a child’s curiosity and expand their possibilities. Online learning is a window or a magnifying glass to expand knowledge. However, none of this can work without these four core concepts from situated learning theory. The first part of the training involved getting to know the content. In the video below, I am playing with PBS KIDS Play and Learn Science app. I am scrolling up and down to explore different types of weather, from sunny to cold, to snowy. In learning how to integrate situated learning in online learning, <strong>content is king</strong>. Does this content help to engage the child to <strong>notice, connect, and wonder</strong>?
 
-[embed]https://youtu.be/ZkWm9nTBFbo[/embed]
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZkWm9nTBFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This app provides families with opportunities to play, build, explore, and learn together. It encourages children to notice, comment and wonder. But content and context go together hand in hand. Online learning and technology can be tools to strengthen relationships. <strong>In what context are we using this app to teach science?</strong> Science learning with this app is more beneficial when the adult/mentor scaffolds the activity within a learning experience. According to Leve and Wenger (1991), learning is a relationship among people in an activity in, with, or arising from the context in which people are participating. <strong>Relationships matters in online situated learning.</strong> Without the context of how children learn with media, we are just surrounding a child with media.
 
@@ -35,9 +35,10 @@ The context in these photos are adults intentionally leveraging the content of t
 
 For the last part of the training, this community of practice emphasized the importance of online learning to explore and learn by engaging in the design of hands-on activity sparked by the game. The app engages children in learning about the weather and includes a thermometer game. The online situated learning is taking those ideas from the game and exploring them in real life situations like a thermometer hands-on activity to teach children about the weather.
 
-[embed]https://youtu.be/ZJ3Cu_M4cGM[/embed]
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZJ3Cu_M4cGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <strong>Can early education online learning be situated?</strong> Yes but within the context of understanding child development content, understanding the family context, knowing what is culturally appropriate, and role of mentors (relationships) for children to thrive in the digital and 21st-century world.
+
 <pre>References 
 Brown, J. S., &amp; Duguid, P. (1991). Organizational learning and communities-of-practice: Toward a unified view of working, learning, and innovation. <em>Organization Science, 2(1)</em>, 40–57.
 
