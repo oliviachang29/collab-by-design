@@ -15,7 +15,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbar-mobile-nav">
     <ul class="navbar-nav">
-      {% set navItems = navigation.items %} {% include "partials/global/nav-links.njk" %}
+      {% set navItems = navigation %} {% include "partials/global/nav-links.njk" %}
     </ul>
   </div>
 </nav>
@@ -24,7 +24,7 @@
 
 <nav class="navbar navbar-light" id="navbar-desktop">
   <ul class="navbar-nav mr-auto nav-link-container">
-    {% set navItems = navigation.nav_left %} {% include "partials/global/nav-links.njk" %}
+    {% set navItems = navComputed.nav_left %} {% include "partials/global/nav-links.njk" %}
   </ul>
 
   <ul class="navbar-nav navbar-center">
@@ -32,6 +32,6 @@
   </ul>
 
   <ul class="navbar-nav ml-auto nav-link-container">
-    {% set navItems = navigation .nav_right %} {% include "partials/global/nav-links.njk" %}
+    {% set navItems = navComputed.nav_right %} {% include "partials/global/nav-links.njk" %}
   </ul>
 </nav>

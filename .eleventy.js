@@ -14,7 +14,7 @@ const parseTransform = require("./site/transforms/parse-transform.js");
 const criticalCSSTransform = require("./site/transforms/critical-css-transform.js");
 
 // Import data files
-const site = require("./site/_data/site.js");
+const site = require("./site/_data/site.json");
 
 module.exports = function (config) {
   // Filters
