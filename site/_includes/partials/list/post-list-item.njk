@@ -13,9 +13,13 @@
       </div>
       <div class="list-item__right post-list-item__right">
         <h2 class="list-item__title post-list-item__title">{{ item.data.title }}</h2>
+        <p class="list-item__description post-list-item__description">
         {% if item.data.description %}
-          <p class="list-item__description post-list-item__description">{{ item.templateContent | excerptFilter }}</p>
+          {{ item.data.description }}
+        {% else %}
+          {{ item.templateContent | excerptFilter }}
         {% endif %}
+        </p>
         <p class="mono list-item__read-more post-list-item__read-more">Read more →</p>
       </div>
     </div>

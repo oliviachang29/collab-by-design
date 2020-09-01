@@ -1,7 +1,6 @@
 ---
 title: Active Learning Happens Everywhere
 date: "2018-02-05"
-description: On October 2017, a mother who attended our STEM parent workshop expressed to me that since attending the program, where she learned how to use technology and digital content, like STEM-based games and online activities, she noticed a vast improvement in her son's learning.
 tags:
 - EdTech
 - Informal Learning

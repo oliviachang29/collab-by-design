@@ -1,6 +1,5 @@
 ---
 title: Playing, exploring, and discovering inspired by media & technology
-description: This past week, as part of my regular job, I co-presented and trained several public media stations and their community partners on a space and earth science curricula.
 date: "2019-02-25"
 tags:
   - Early Childhood

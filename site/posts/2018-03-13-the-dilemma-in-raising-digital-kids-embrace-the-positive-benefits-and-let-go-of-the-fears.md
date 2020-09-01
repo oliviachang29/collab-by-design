@@ -1,7 +1,6 @@
 ---
 title: "The Dilemma in Raising Digital Kids: Embrace the Positive Benefits and Let Go of the Fears"
 date: "2018-03-13"
-description: For the past weeks, I’ve been watching Black Mirror, and I have been reading about Artificial Intelligence (AI). What I noticed in both Black Mirror and AI, is that both share themes of fear and the unknown.
 tags:
 - AI
 - ECE
@@ -16,7 +15,11 @@ For the past weeks, I’ve been watching <em><a href="https://en.wikipedia.org/w
 
 Messages like this one <a href="https://www.theverge.com/2018/3/8/17095582/smartphone-screen-time-parenting-child-development">https://www.theverge.com/2018/3/8/17095582/smartphone-screen-time-parenting-child-development </a>,and this one <a href="http://variety.com/2018/digital/features/smartphone-addiction-apps-apple-facebook-google-1202724489/">http://variety.com/2018/digital/features/smartphone-addiction-apps-apple-facebook-google-1202724489/</a>
 
-Which provides this quote on the technology and media debate: <em>“If you look at the role that screen media is playing in our society — contributing perhaps to fearfulness and isolation — there are ways to say perhaps it’s a bigger crisis than opioids.”</em>
+Which provides this quote on the technology and media debate: 
+
+<blockquote>
+“If you look at the role that screen media is playing in our society — contributing perhaps to fearfulness and isolation — there are ways to say perhaps it’s a bigger crisis than opioids.
+</blockquote>
 
 These messages tend to focus on the negative aspect of technology while forgetting, once again, the most crucial aspect of technology and media use – relationships. Last week, I <a href="http://knowledgylab.com/470/">wrote</a> about why relationships matter when we integrate technology into our lives. This week I read an <a href="https://educationoutrage.blogspot.com/2018/02/you-are-dying-of-kidney-failure-lesson.html?m=1">article</a> on AI that proves once again, why relationships are essential in technology use.
 
@@ -29,20 +32,23 @@ As a practitioner working with families, teachers, and young children, I’m oft
 Technology can be that tool to support doctors make those successful diagnoses for patients. It cannot be the all-encompassing tool to diagnose someone, but it can add to the doctor's tools for a successful practice. The same way families, educators, and the practitioners can use technology, to support those children and families in which technology can be a window to explore the world.
 
 The question then is, how can we practitioners and researchers can provide more opportunity spaces to broker positive use of tech and media use with families, educators, and children?
-<pre>Adamson, L. B., Bakeman, R., Deckner, D. F., &amp; Nelson, P. B. (2014). From Interactions to Conversations: The Development of Joint Engagement During Early Childhood. <em>Child Development, 85, </em>3, 941-955.
 
-Cartmill, E. A., Armstrong, B. F., Gleitman, L. R., Goldin-Meadow, S., Medina, T. N. &amp; Trustwell, J. C. (2013) Quality of early parent input predicts child vocabulary three years later, <em>PNAS Early Edition</em>, 110 (28), DOI: 10.1073/pnas.1309518110.
+### References
 
-Hamre, B. K., &amp; Pianta, R. C. (2005). Can Instructional and Emotional Support in the First-Grade Classroom Make a Difference for Children at Risk of School Failure?. <em>Child Development, 76, </em>5, 949-967.
+* Adamson, L. B., Bakeman, R., Deckner, D. F., &amp; Nelson, P. B. (2014). From Interactions to Conversations: The Development of Joint Engagement During Early Childhood. <em>Child Development, 85, </em>3, 941-955.
 
-Norvig, P. (2012). Artificial intelligence: Early ambitions. <em>New Scientist, 216, </em>2889.)
+* Cartmill, E. A., Armstrong, B. F., Gleitman, L. R., Goldin-Meadow, S., Medina, T. N. &amp; Trustwell, J. C. (2013) Quality of early parent input predicts child vocabulary three years later, <em>PNAS Early Edition</em>, 110 (28), DOI: 10.1073/pnas.1309518110.
 
-McCarthy, B., Li, L., Tiu, M., &amp; Atienza, S. (2013). PBS kids mathematics transmedia suites in preschool homes. <em>Proceedings of the 12th International Conference on Interaction Design and Children</em>, 128-136.
+* Hamre, B. K., &amp; Pianta, R. C. (2005). Can Instructional and Emotional Support in the First-Grade Classroom Make a Difference for Children at Risk of School Failure?. <em>Child Development, 76, </em>5, 949-967.
 
-Ostrosky, M. M., Gaffney, J. S., &amp; Thomas, D. V. (2006). The Interplay between Literacy and Relationships in Early Childhood Settings. <em>Reading &amp; Writing Quarterly, 22, </em>2, 173-191.
+* Norvig, P. (2012). Artificial intelligence: Early ambitions. <em>New Scientist, 216, </em>2889.)
 
-Silverman, R., &amp; Hines, S. (2009). The effects of multimedia-enhanced instruction on the vocabulary of English-language learners and non-English-language learners in pre-kindergarten through second grade. <em>Journal of Educational Psychology</em>, 101(2), 305-314
+* McCarthy, B., Li, L., Tiu, M., &amp; Atienza, S. (2013). PBS kids mathematics transmedia suites in preschool homes. <em>Proceedings of the 12th International Conference on Interaction Design and Children</em>, 128-136.
 
-Tayler, C. (2015). Learning in Early Childhood: experiences, relationships and ‘Learning to Be’. <em>European Journal of Education, 50, </em>2, 160-174.
+* Ostrosky, M. M., Gaffney, J. S., &amp; Thomas, D. V. (2006). The Interplay between Literacy and Relationships in Early Childhood Settings. <em>Reading &amp; Writing Quarterly, 22, </em>2, 173-191.
 
-Verhallen, M., Bus, A., &amp; de Jong, M. (2006). The promise of multimedia stories for kindergarten children at risk. <em>Journal of Educational Psychology</em>, 98(2), 410-419.</pre>
+* Silverman, R., &amp; Hines, S. (2009). The effects of multimedia-enhanced instruction on the vocabulary of English-language learners and non-English-language learners in pre-kindergarten through second grade. <em>Journal of Educational Psychology</em>, 101(2), 305-314
+
+* Tayler, C. (2015). Learning in Early Childhood: experiences, relationships and ‘Learning to Be’. <em>European Journal of Education, 50, </em>2, 160-174.
+
+* Verhallen, M., Bus, A., &amp; de Jong, M. (2006). The promise of multimedia stories for kindergarten children at risk. <em>Journal of Educational Psychology</em>, 98(2), 410-419.

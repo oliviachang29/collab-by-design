@@ -1,7 +1,6 @@
 ---
 title: Methodological Fit Reflection
 date: "2018-05-31"
-description: While I’d like to say that I feel confident in understanding research methodologies in-depth, I am still processing which methods best fit the type of work I’d like to research for my dissertation.
 tags:
   - Graduate School
   - Research

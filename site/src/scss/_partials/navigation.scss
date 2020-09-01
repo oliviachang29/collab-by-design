@@ -7,7 +7,7 @@
   font-weight: bold;
 }
 
-$underline-height: 45%;
+$underline-height: 55%;
 
 @mixin nav-link-active {
   background-size: 97% $underline-height;
@@ -27,7 +27,7 @@ $underline-height: 45%;
 
 .nav-link {
   font-family: $FONT_NORMAL;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: calc(1rem + 0.1vw);
   color: black !important;
   display: inline;

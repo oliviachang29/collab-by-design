@@ -1,9 +1,6 @@
 ---
 title: Rethinking adult learning in family engagement programs
 date: "2019-02-10"
-description: "“Every function in the child’s cultural development appears twice:
-First, on the social level, and later, on the individual level,
-First between people and then inside the child.”"
 tags:
 - adult learning theory
 - early learning

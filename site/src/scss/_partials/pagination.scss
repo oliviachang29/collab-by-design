@@ -21,7 +21,8 @@
 
 .page-item.active .page-link {
   background-color: $turquoise;
-  color: black
+  color: black;
+  font-weight: bold
 }
 
 .page-item.disabled .page-link {

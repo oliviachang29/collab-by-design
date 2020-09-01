@@ -1,6 +1,5 @@
 ---
 title: Welcome to the Knowledgy Lab!
-description: Welcome, readers, to the first post of this journey I call Knowledgy Lab. Within this space, you will find future posts on learning technologies and family engagement.
 date: "2018-02-18"
 tags:
 featured_image: "/uploads/welcome-to-knowledgy-lab.jpg"

@@ -1,7 +1,6 @@
 ---
 title: When watching Black Mirror, follow Fred's lead….use tech "with" rather than "instead of"…
 date: "2018-03-09"
-description: Venturing into the world of Black Mirror has been a fascinating experience. Each episode describes a futuristic, imagined universe in which technology and media have become society's oppressors.
 tags: 
 - ECE
 - EdTech

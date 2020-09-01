@@ -1,6 +1,5 @@
 ---
 title: Adult learning theory & families
-description: In my previous blog, I wrote about the need to engage families in playful learning experiences while thinking of them as adult learners, especially in a social context.
 date: "2019-02-18"
 tags:
   - adult learning theory
