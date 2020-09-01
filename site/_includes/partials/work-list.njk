@@ -1,25 +1,26 @@
-{% if postListItems.length %}
-  {% if postListHeading %}
-    {% set sectionTitle = postListHeading %}
-    {% set sectionHeadingClass = 'post-section-heading' %}
-    {% include "partials/section-heading.njk" %}
-  {% endif %}
-  <div class="row list  work-list">
-    {% for item in postListItems %}
-      <div class="col-lg-6 list-item__container work-list-item__outer-container" style="border-left-color:{{item.data.color}}">
-        <a href="{{ item.url }}" rel="bookmark">
-          <div class="work-list-item__inner-container">
-            <h2 class="list-item__title work-list-item__title">{{ item.data.title }}</h2>
-            <p class="list-item__description work-list-item__description">{{item.data.description}}</p>
-            <div class="work-list-item__bottom">
-              <p class="mono work-list-item__location">{{item.data.location}}</p>
-              <p>
-                <time class="mono list-item__date work-list-item__date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
+{% if listItems.length %}
+  <div class="list">
+    {% if listHeading %}
+      {% set sectionTitle = listHeading %}
+      {% set sectionHeadingClass = 'post-section-heading' %}
+      {% include "partials/section-heading.njk" %}
+    {% endif %}
+    <div class="row list-row work-list-row list-row-no-padding-bottom">
+      {% for item in listItems %}
+        {% include "partials/list/work-list-item.njk" %}
+      {% endfor %}
+    </div>
+    <div class="row list-row work-list-row collapse" id="{{collapseTarget}}">
+      {% for item in hiddenListItems %}
+        {% include "partials/list/work-list-item.njk" %}
+      {% endfor %}
+    </div>
+
+    {% if hiddenListItems.length %}
+      {% set buttonText = "See More" %}
+      {% set shownText = "See Less" %}
+      {% set buttonClasses = 'btn-center btn-collapse' %}
+      {% include "partials/button.njk" %}
+    {% endif %}
   </div>
 {% endif %}

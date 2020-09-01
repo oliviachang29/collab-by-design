@@ -1,6 +1,14 @@
 .list {
+  margin-bottom: $SCALE-5;
+}
+
+.list-row {
   padding-left: $SCALE-1;
   padding-bottom: $SCALE-2;
+}
+
+.list-row-no-padding-bottom {
+  padding-bottom: 0;
 }
 
 .list-item__container {
@@ -68,13 +76,30 @@
   }
 }
 
+.tint {
+  position: relative;
+  float: left;
+  margin-left: $SCALE-1;
+  margin-bottom: $SCALE-2;
+}
+
+.tint:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--tint-color)
+}
+
+
 .post-list-item__image {
   width: 90%;
   height: auto;
   object-fit: cover;
   box-shadow: -20px -20px;
-  margin-left: $SCALE-1;
-  margin-bottom: $SCALE-2;
   @media (min-width: $md) {
     width: 2 * $SCALE-4;
     height: 2 * $SCALE-4;
@@ -100,6 +125,10 @@
 .work-list-item__outer-container {
   border-left: 20px solid;
   margin-bottom: $SCALE-3;
+}
+
+// Only move on hover if it's a link
+.work-list-item__outer-container a {
   &:hover .work-list-item__inner-container {
     transform: translateX($SCALE-1 * 0.5);
   }

@@ -1,21 +1,28 @@
 .navbar-nav {
   background-color: transparent;
-  margin-top: $SCALE-2;
 }
 
-#navbar-logo {
+.navbar-brand {
   font-family: $FONT_HEADINGS;
   font-weight: bold;
 }
 
 $underline-height: 45%;
-.nav-item {
+
+@mixin nav-link-active {
+  background-size: 97% $underline-height;
+}
+
+#navbar-desktop .nav-item {
   transition: background-size 0.2s ease-out;
-  background: linear-gradient($turquoise, $turquoise) no-repeat left 127%/0
-    $underline-height;
+  background: linear-gradient($turquoise, $turquoise) no-repeat left 127%/0 $underline-height;
   &:hover {
-    background-size: 97% $underline-height;
+    @include nav-link-active;
   }
+}
+
+#navbar-desktop .nav-item.active {
+  @include nav-link-active;
 }
 
 .nav-link {
@@ -26,10 +33,6 @@ $underline-height: 45%;
   display: inline;
 }
 
-.nav-item__icon {
-  height: $SCALE-1;
-}
-
 .navbar-ul {
   list-style-type: none;
   display: flex;
@@ -37,7 +40,52 @@ $underline-height: 45%;
   justify-content: space-between;
 }
 
-.navbar-expand-lg .navbar-nav {
+/* MOBILE NAVBAR */
+
+#navbar-mobile {
+  @media (min-width: $md) {
+    display: none;
+  }
+}
+
+#navbar-mobile .nav-item__icon {
+  width: $SCALE-1;
+}
+
+.nav-mobile {
+  padding: 1rem $SCALE-2;
+  margin: 0.25rem 0;
+}
+
+#navbar-mobile .navbar-nav {
+  padding: 1rem 0 $SCALE-1;
+}
+
+.navbar-toggler {
+  border: none;
+  &:focus {
+    outline: none
+  }
+}
+
+/* DESKTOP NAVBAR */
+
+#navbar-desktop {
+  @media (max-width: $md) {
+    display: none;
+  }
+  flex-flow: row nowrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: $SCALE-2;
+}
+
+#navbar-desktop .navbar-nav {
   justify-content: space-around;
   width: 100%;
+  flex-direction: row;
+}
+
+#navbar-desktop .nav-item__icon {
+  height: $SCALE-1;
 }

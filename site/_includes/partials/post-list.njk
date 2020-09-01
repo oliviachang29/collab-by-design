@@ -1,30 +1,14 @@
-{% if postListItems.length %}
-  {% if postListHeading %}
-    {% set sectionTitle = postListHeading %}
-    {% set sectionHeadingClass = 'post-section-heading' %}
-    {% include "partials/section-heading.njk" %}
-  {% endif %}
-  <div class="row list post-list">
-    {% for item in postListItems %}
-      <div class="col-lg-6 list-item__container post-list-item__outer-container">
-        <a href="{{ item.url }}" rel="bookmark">
-          <div class="post-list-item__inner-container">
-            <div class="list-item__left post-list-item__left">
-              <img src="{{ item.data.featured_image }}" class="list-item__image post-list-item__image" style="color: {{item.data.color}}">
-              <p>
-                <time class="mono list-item__date post-list-item__date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
-            </div>
-            <div class="list-item__right post-list-item__right">
-              <h2 class="list-item__title post-list-item__title">{{ item.data.title }}</h2>
-              {% if item.data.description %}
-                <p class="list-item__description post-list-item__description">{{item.data.description}}</p>
-              {% endif %}
-              <p class="mono list-item__read-more post-list-item__read-more">Read more →</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    {% endfor %}
+{% if listItems.length %}
+  <div class="row">
+    {% if listHeading %}
+      {% set sectionTitle = listHeading %}
+      {% set sectionHeadingClass = 'post-section-heading' %}
+      {% include "partials/section-heading.njk" %}
+    {% endif %}
+    <div class="row list-row post-list-row">
+      {% for item in listItems %}
+        {% include 'partials/list/post-list-item.njk' %}
+      {% endfor %}
+    </div>
   </div>
 {% endif %}

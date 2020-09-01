@@ -25,3 +25,11 @@ if (supportsLazyLoad || !supportsIntersectionObserver) {
   const observer = lozad(images);
   observer.observe();
 }
+
+$(".navbar .nav-item").each(function() {
+  if (`${$(this).prop("href")}/` == window.location.href) {
+    $(this).addClass("active");
+  } else {
+    $(this).removeClass("active");
+  }
+});

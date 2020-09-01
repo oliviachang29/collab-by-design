@@ -5,6 +5,8 @@
   }
 }
 
+/** BUTTON **/
+
 $btn-color: $turquoise;
 .btn {
   background-color: $btn-color;
@@ -26,20 +28,39 @@ $btn-color: $turquoise;
   margin: 0 auto $SCALE-5;
 }
 
+.btn-collapse:not(.collapsed) .collapsed-text {
+  display: none;
+}
+
+.btn-collapse.collapsed .shown-text {
+  display: none;
+}
+
+/** DOT GRID **/
+
 .dot-grid-bg {
   background: url("/dot-grid.png");
 }
+
+/** SECTION HEADING **/
+
 .section-heading {
-  width: fit-content;
-  padding-right: 2 * $SCALE-5;
+  width: 100%;
+  background: linear-gradient(to top, $gold 13%, transparent 13%);
+  text-align: center;
+  @media (min-width: $sm) {
+    text-align: left;
+  }
   @media (min-width: $md) {
+    width: fit-content;
     padding-right: 4 * $SCALE-5;
   }
-  background: linear-gradient(to top, #ffd672 13%, transparent 13%);
   h4 {
+    width: fit-content;
     font-size: 17px;
-    background-color: #ffd672;
+    background-color: $gold;
     padding: 9px $SCALE-1;
+    margin: 0 !important;
   }
 }
 

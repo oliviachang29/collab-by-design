@@ -2,7 +2,7 @@
 title: Blog Posts 
 pagination: 
   data: collections.posts
-  size: 5
+  size: 8
   alias: posts 
 ---
 
@@ -12,16 +12,12 @@ pagination:
 {% set introTitle = title %}
 
 {# Post list content #}
-{% set postListItems = posts %}
-
-{% if postListItems.length < collections.posts.length %}
-  {% set paginationNextText = 'Next' %}
-  {% set paginationNextUrl = pagination.nextPageHref %}
-  {% set paginationPrevUrl = pagination.previousPageHref %}
-{% endif %}
+{% set listItems = posts %}
 
 {% block content %}
   {% include "partials/intro.njk" %}
   {% include "partials/post-list.njk" %}
-  {% include "partials/pagination.njk" %}
+  {% if listItems.length < collections.posts.length %}
+    {% include "partials/pagination.njk" %}
+  {% endif %}
 {% endblock %}

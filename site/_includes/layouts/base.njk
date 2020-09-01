@@ -57,6 +57,7 @@
     {% include "partials/global/navbar.njk" %}
     <div class="container base-container">
       {% block content %}{% endblock content %}
+      {% include "partials/global/newsletter.njk" %}
       {% block foot %}
         {% include "partials/global/footer.njk" %}
       {% endblock %}

@@ -40,6 +40,9 @@ footer {
   margin-left: $SCALE-1;
   font-family: $FONT_MONO;
   font-size: 15px;
+  &:hover {
+   text-decoration: underline 
+  }
 }
 
 #footer-social-media {

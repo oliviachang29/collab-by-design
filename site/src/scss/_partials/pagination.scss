@@ -1,0 +1,29 @@
+.pagination {
+  width: fit-content;
+  margin: $SCALE-3 auto $SCALE-4;
+  border: none;
+}
+
+.page-link {
+  font-family: $FONT_MONO;
+  font-size: 16px;
+  border: none;
+  color: black;
+  margin: 0 3px;
+  @include smooth-transition;
+  &:hover {
+    color: black;
+  }
+  &:focus {
+    outline: none
+  }
+}
+
+.page-item.active .page-link {
+  background-color: $turquoise;
+  color: black
+}
+
+.page-item.disabled .page-link {
+  opacity: 0.4 
+}

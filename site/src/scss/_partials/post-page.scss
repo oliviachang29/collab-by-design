@@ -1,17 +1,21 @@
 .post-page__container {
-  padding: 0 $SCALE-1;
+  padding: 0 $SCALE-1 $SCALE-3;
   max-width: 650px;
   margin: 0 auto;
 }
 
+.post-page__content * {
+  font-family: $FONT_NORMAL;
+}
+
 .post-page__content h1 {
   margin-top: $SCALE-4;
-  padding-bottom: $SCALE-4;
+  padding-bottom: $SCALE-3;
 }
 
 .post-page__content h2 {
   margin-top: $SCALE-4;
-  padding-bottom: $SCALE-3;
+  padding-bottom: $SCALE-2;
 }
 
 .post-page__content h3 {
@@ -19,7 +23,7 @@
   padding-bottom: $SCALE-1;
 }
 
-.post-page__content p {
+.post-page__content p, li {
   font-size: calc(1.2rem + 0.05vw);
   line-height: calc(2rem + 0.05vw);
   margin-bottom: $SCALE-1;
@@ -27,6 +31,7 @@
 
 .post-page__content img {
   margin: $SCALE-2 auto;
+  width: 100%
 }
 
 .post-page__content iframe {
@@ -37,10 +42,26 @@
 
 .post-page__tags-text {
   font-family: $FONT-MONO;
-  margin: $SCALE-4 0 $SCALE-5;
+  margin: $SCALE-2 0 $SCALE-5;
   font-size: 15px;
 }
 
 .post-page__indv-tag {
   color: $COLOR_MID;
+}
+
+.share-buttons {
+  margin: $SCALE-3 0 $SCALE-3;
+}
+
+.share-button {
+  font-size: 24px;
+  color: $COLOR_MID;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+.share-buttons__share-this {
+  font-family: $FONT-MONO;
+  font-size: 15px;
 }

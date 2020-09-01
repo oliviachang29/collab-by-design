@@ -1,5 +1,15 @@
+$left-padding: $SCALE-5;
+
 .default-intro {
   padding: $SCALE-5 0 $SCALE-4;
+  @media (min-width: $sm) {
+    padding-left: $left-padding;
+    margin-left: -$left-padding;
+  }
+}
+
+.default-intro__author {
+  margin-top: $SCALE-1;
 }
 
 .intro__title {
@@ -23,12 +33,10 @@
 // home
 $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .home-intro {
+  padding: 0;
   margin: $SCALE-1 0;
   @media (max-width: $md) {
     flex-direction: column-reverse;
-  }
-  @media (max-width: $lg) {
-    padding: $home-intro-padding 0;
   }
 }
 
@@ -41,7 +49,7 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 }
 
 .home-intro__image {
-  box-shadow: 2.5rem -2.5rem 0 0 #ff89bc;
+  box-shadow: 2.5rem -2.5rem 0 0 $pink;
 }
 .home-intro__right {
   @media (min-width: $md) {
@@ -52,8 +60,10 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 // post intro
 
 .post-intro {
-  @media (max-width: $md) {
-    // padding: $home-intro-padding 0 calc(2 * #{$SCALE-5});
+  @media (min-width: $md) {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -68,16 +78,24 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
   box-shadow: -3.2vw 3.2vw;
   height: auto;
   width: 100%;
-  @media (min-width: $md) {
+  margin-bottom: $SCALE-4;
+  @media (min-width: $lg) {
     float: right;
-    height: 25vw;
-    width: 25vw;
+    height: 30vw;
+    width: 30vw;
+  }
+}
+
+.post-intro__title {
+  font-size: calc(2rem + 0.1vw);
+  @media (min-width: $md) {
+    font-size: calc(2.5rem + 0.3vw);
   }
 }
 
 .post-intro__text {
-  // text-align: center;
   @media (min-width: $md) {
+    margin-top: -$SCALE-5;
     padding-left: $SCALE-3;
     text-align: left;
   }
@@ -86,4 +104,45 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .post-intro__date {
   color: $COLOR_MID;
   margin-bottom: $SCALE-1 * 0.5;
+}
+
+/* ABOUT */
+.about-intro {
+  padding-bottom: $SCALE-5;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $md) {
+    flex-direction: row;
+  }
+}
+
+.about-intro__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: $md) {
+    justify-content: flex-end;
+  }
+}
+
+.about-intro__image {
+  width: calc(150px + 5vw);
+  height: calc(150px + 5vw);
+  @media (min-width: $md) {
+    width: 150px;
+    height: 150px;
+  }
+  margin-bottom: $SCALE-4;
+  box-shadow: -1.5rem 1.5rem 0 0 $turquoise;
+}
+
+.about-intro__right {
+  padding-left: $SCALE-2;
+  text-align: center;
+  @media (min-width: $md) {
+    text-align: left;
+  }
 }

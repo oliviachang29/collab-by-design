@@ -12,30 +12,47 @@
 
 {% block content %}
 
-<article>
-  {% if featured_image %}
-    {% set color = page.color %}
-    {% include "partials/post-intro.njk" %}
-  {% endif %}
-  
-  <div class="post-page__container">
-    {% if not featured_image %}
-      {% set introTitle = title %}
-      {% set introDescription = description %}
-      {% include "partials/intro.njk" %}
+  <article>
+    {% if featured_image %}
+      {% include "partials/post-intro.njk" %}
     {% endif %}
-    <div class="post-page__content">
-      {{ content | safe }}
-    </div>
 
-    <p class="post-page__tags-text">
-      <strong>Tags: </strong>
-      {% for item in tags %}
-      <a class="post-page__indv-tag" href="/tags/{{ item }}">{{ item }}</a>{% if not loop.last %}, {% endif%}{% endfor %}
-    </p>
-  </div>
-</article>
+    <div class="post-page__container">
+      {% if not featured_image %}
+        {% set introTitle = title %}
+        {% set introDescription = description if description %}
+        {% set introAuthor = 'by ' + authorName%}
+        {% include "partials/intro.njk" %}
+      {% endif %}
+      <div class="post-page__content">
+        {% if external_link %}
+          <p>
+            <i>This article originally appeared in <a href="{{external_link}}" target="_blank">{{location}}</a> and has been reposted here.</i>
+          </p>
+          <hr>
+        {% endif %}
+        {{ content | safe }}
+      </div>
 
-{% if tags %}{% endif %}
+        {% include 'partials/post-page/share-icons.njk' %}
 
-{% endblock %}
+        {% if tags.length %}
+        <p class="post-page__tags-text">
+          <strong>Tags: </strong>
+          {% for item in tags %}
+            <a class="post-page__indv-tag" href="/tags/{{ item }}">{{ item }}</a>{% if not loop.last %}, {% endif%}
+            {% endfor %}
+          </p>
+        {% endif %}
+        {% include 'partials/post-page/disqus.njk' %}
+      </div>
+
+      {% if related %}
+        {% set listHeading = 'Related posts' %}
+        {% set listItems = related %}
+        {% include "partials/post-list.njk" %}
+      {% endif %}
+
+    </article>
+
+  {% endblock %}

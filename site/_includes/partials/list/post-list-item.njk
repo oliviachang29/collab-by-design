@@ -1,0 +1,23 @@
+<div class="col-lg-6 list-item__container post-list-item__outer-container">
+  <a href="{{ item.url }}" rel="bookmark">
+    <div class="post-list-item__inner-container">
+      <div class="list-item__left post-list-item__left">
+        <figure class="tint" style="--tint-color:{{item.data.color}}42">
+          <img src="{{ item.data.featured_image }}" class="list-item__image post-list-item__image" style="color: {{item.data.color}};">
+        </figure>
+        <p>
+        {% if item.date %}
+          <time class="mono list-item__date post-list-item__date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+        {% endif %}
+        </p>
+      </div>
+      <div class="list-item__right post-list-item__right">
+        <h2 class="list-item__title post-list-item__title">{{ item.data.title }}</h2>
+        {% if item.data.description %}
+          <p class="list-item__description post-list-item__description">{{ item.templateContent | excerptFilter }}</p>
+        {% endif %}
+        <p class="mono list-item__read-more post-list-item__read-more">Read more →</p>
+      </div>
+    </div>
+  </a>
+</div>

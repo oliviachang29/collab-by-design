@@ -1,2 +1,13 @@
-<a href="{{buttonLink}}" class="btn {{buttonClasses}}" role="button" aria-pressed="true">{{buttonText}}
+<a 
+  class="btn {% if collapseTarget %}collapsed{%endif%} {{buttonClasses}}" role="button" aria-pressed="true"
+  {% if buttonLink %}href="{{buttonLink}}"{% endif %}
+  {% if collapseTarget %}
+    data-toggle="collapse"
+    data-target="#{{collapseTarget}}"
+    aria-expanded="false"
+    aria-controls="{{collapseTarget}}"
+  {% endif%}>
+  {% if shownText %}<span class="collapsed-text">{% endif %}
+    {{buttonText}}
+  {% if shownText %}</span><span class="shown-text">{{ shownText }}</span>{% endif %}
 </a>

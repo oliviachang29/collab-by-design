@@ -3,24 +3,21 @@
 @import "./_partials/initialise";
 @import "./_partials/typography";
 @import "./_partials/util";
+@import "./globals";
 
 // Components
 @import "./_partials/pagination";
 @import "./_partials/site-footer";
-@import "./_partials/forms";
 @import "./_partials/list";
 @import "./_partials/site-head";
 @import "./_partials/navigation";
 @import "./_partials/post-page";
-@import "./_partials/site-name";
 @import "./_partials/page";
 @import "./_partials/post-tags";
-@import "./_partials/site-title";
-
-// Home
+@import "./_partials/newsletter";
 @import "./_partials/intro";
+
+// Pages
 
 @import "./_partials/about";
 @import "./_partials/contact";
-
-@import "./globals";

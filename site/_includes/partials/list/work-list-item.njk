@@ -1,0 +1,34 @@
+<div class="{% if listItems.length === 1 %}col-lg-10{%else %}col-lg-6{%endif%} list-item__container work-list-item__outer-container" style="border-left-color:{{item.data.color}}">
+  {# no links on presentations #}
+  {% if listHeading !== 'Presentations' %}
+    <a href="{% if item.data.file %}{{item.data.file}}{%else%}{{ item.url }}{%endif%}" rel="bookmark" {% if item.data.file %}target="_blank"{%endif%}>
+    {% endif %}
+    <div class="work-list-item__inner-container">
+      <h2 class="list-item__title work-list-item__title">{{ item.data.title }}</h2>
+      <p class="list-item__description work-list-item__description">
+      {% if item.data.description %}
+        {{item.data.description}}
+      {% else %}
+        {{ item.templateContent | excerptFilter }}
+      {% endif %}
+      </p>
+      <div class="work-list-item__bottom">
+        {% if item.data.location %}
+          <p class="mono work-list-item__location">{{item.data.location}}</p>
+          {% endif%}
+          {% if item.data.date %}
+            <p>
+              <time class="mono list-item__date work-list-item__date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            </p>
+          {% endif %}
+          {% if item.data.publish_date %}
+            <p>
+              <time class="mono list-item__date work-list-item__date">{{ item.data.publish_date }}</time>
+            </p>
+          {% endif %}
+        </div>
+      </div>
+      {% if listHeading !== 'Presentations' %}
+      </a>
+    {% endif %}
+  </div>

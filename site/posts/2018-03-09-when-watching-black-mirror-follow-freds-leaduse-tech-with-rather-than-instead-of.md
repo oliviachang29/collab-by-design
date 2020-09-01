@@ -31,21 +31,20 @@ Technology and interactive media have changed the way children learn. Children, 
 
 As an early learning educator and media and technology practitioner, I have encountered many early education educators, still apprehensive about the integration of media and technology in a child's learning path. Many of these educators state that technology has no place in early childhood classroom. I counter that technology has a place in young children's learning path, but as long we follow Fred's lead, use tech "with" rather than "instead of" and when relationships are part of the learning equation.
 
-&nbsp;
-<pre>References
+### References
 
-Brown, A., &amp; Council on Communications and Media. (2011). Media use by children younger than 2 years. <em>Pediatrics, 128, </em>5, 1040-5.
+* Brown, A., &amp; Council on Communications and Media. (2011). Media use by children younger than 2 years. <em>Pediatrics, 128, </em>5, 1040-5.
 
-Fisch, S., Truglio, R., &amp; Cole, C. (1999). The impact of sesame street on preschool children: A review and synthesis of 30 years' research. <em>Media Psychology</em>, <em>1</em>(2), 165-190.
+* Fisch, S., Truglio, R., &amp; Cole, C. (1999). The impact of sesame street on preschool children: A review and synthesis of 30 years' research. <em>Media Psychology</em>, <em>1</em>(2), 165-190.
 
-Nathanson, A. I. (2001). Mediation of children’s television viewing: Working toward conceptual clarity and common understanding. In W. B. Gudykunst (Ed.), <em>Communication yearbook</em> (Vol. 25, pp. 115–151). Mahwah, NJ: Lawrence Erlbaum.
+* Nathanson, A. I. (2001). Mediation of children’s television viewing: Working toward conceptual clarity and common understanding. In W. B. Gudykunst (Ed.), <em>Communication yearbook</em> (Vol. 25, pp. 115–151). Mahwah, NJ: Lawrence Erlbaum.
 
-McCarthy, B., Li, L., Tiu, M., &amp; Atienza, S. (2013). PBS kids mathematics transmedia suites in preschool homes. <em>Proceedings of the 12th International Conference on Interaction Design and Children</em>, 128-136.
+* McCarthy, B., Li, L., Tiu, M., &amp; Atienza, S. (2013). PBS kids mathematics transmedia suites in preschool homes. <em>Proceedings of the 12th International Conference on Interaction Design and Children</em>, 128-136.
 
-Penuel, W., Bates, L., Gallagher, L., Pasnik, S., Llorente, C., et al. (2012). Supplementing literacy instruction with a media-rich intervention: Results of a randomized controlled trial. <em>Early Childhood Research Quarterly</em>, <em>27</em>(1), 115-127.
+* Penuel, W., Bates, L., Gallagher, L., Pasnik, S., Llorente, C., et al. (2012). Supplementing literacy instruction with a media-rich intervention: Results of a randomized controlled trial. <em>Early Childhood Research Quarterly</em>, <em>27</em>(1), 115-127.
 
-Rasmussen, E. E., White, S., Punyanunt-Carter, N., Densley, R. L., Shafer, A., Colwell, M. J., &amp; Wright, H. (2016). Relation between active mediation, exposure to Daniel Tiger’s Neighborhood, and US preschoolers’ social and emotional development. <em>Journal of Children and Media, 10, </em>4, 443-461.
+* Rasmussen, E. E., White, S., Punyanunt-Carter, N., Densley, R. L., Shafer, A., Colwell, M. J., &amp; Wright, H. (2016). Relation between active mediation, exposure to Daniel Tiger’s Neighborhood, and US preschoolers’ social and emotional development. <em>Journal of Children and Media, 10, </em>4, 443-461.
 
-Silverman, R., &amp; Hines, S. (2009). The effects of multimedia-enhanced instruction on the vocabulary of English-language learners and non-English-language learners in pre-kindergarten through second grade. <em>Journal of Educational Psychology</em>, <em>101</em>(2), 305-314.
+* Silverman, R., &amp; Hines, S. (2009). The effects of multimedia-enhanced instruction on the vocabulary of English-language learners and non-English-language learners in pre-kindergarten through second grade. <em>Journal of Educational Psychology</em>, <em>101</em>(2), 305-314.
 
-Verhallen, M., Bus, A., &amp; de Jong, M. (2006). The promise of multimedia stories for kindergarten children at risk. <em>Journal of Educational Psychology</em>, <em>98</em>(2), 410-419.</pre>
+* Verhallen, M., Bus, A., &amp; de Jong, M. (2006). The promise of multimedia stories for kindergarten children at risk. <em>Journal of Educational Psychology</em>, <em>98</em>(2), 410-419.

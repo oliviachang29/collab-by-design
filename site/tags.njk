@@ -17,12 +17,11 @@ permalink: /tags/{{ tag }}/
 {% extends 'layouts/base.njk' %}
 
 {# Post list content #}
-{% set postListItems = collections[tag] %}
+{% set listItems = collections[tag] %}
 {% set introTitle %}#{{ tag }}{% endset %}
-{% set introDescription %}{{ postListItems.length}} posts{% endset %}
+{% set introDescription %}{{ listItems.length}} posts{% endset %}
 
 {% block content %}
   {% include "partials/intro.njk" %}
   {% include "partials/post-list.njk" %}
-  {% include "partials/pagination.njk" %}
 {% endblock %}

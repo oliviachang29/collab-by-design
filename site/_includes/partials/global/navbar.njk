@@ -1,27 +1,37 @@
-{% set navType = 'navbar' %}
+{% set navType = 'navbar' %} {% set navMobile = 'true' %}
 
-<nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-light bg-light" id="navbar-mobile">
+  <a class="navbar-brand" href="#">{{ site.name}}</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbar-mobile-nav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
-
-  <div class="collapse navbar-collapse container base-container" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto nav-link-container">
-      {% set navItems = navigation
-        .items
-        .slice(0, 2) %}
-      {% include "partials/global/nav-links.njk" %}
-    </ul>
-
-    <ul class="navbar-nav navbar-center">
-      <a id="navbar-logo" class="navbar-brand" href="/">{{ site.name }}</a>
-    </ul>
-
-    <ul class="navbar-nav ml-auto nav-link-container">
-      {% set navItems = navigation
-        .items
-        .slice(2, navigation.items.size) %}
-      {% include "partials/global/nav-links.njk" %}
+  <div class="collapse navbar-collapse" id="navbar-mobile-nav">
+    <ul class="navbar-nav">
+      {% set navItems = navigation.items %} {% include "partials/global/nav-links.njk" %}
     </ul>
   </div>
+</nav>
+
+{% set navType = 'navbar' %} {% set navMobile = 'false' %}
+
+<nav class="navbar navbar-light" id="navbar-desktop">
+  <ul class="navbar-nav mr-auto nav-link-container">
+    {% set navItems = navigation.nav_left %} {% include "partials/global/nav-links.njk" %}
+  </ul>
+
+  <ul class="navbar-nav navbar-center">
+    <a id="navbar-logo" class="navbar-brand" href="/">{{ site.name }}</a>
+  </ul>
+
+  <ul class="navbar-nav ml-auto nav-link-container">
+    {% set navItems = navigation .nav_right %} {% include "partials/global/nav-links.njk" %}
+  </ul>
 </nav>
