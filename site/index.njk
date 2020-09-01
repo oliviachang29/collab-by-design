@@ -1,8 +1,3 @@
----
-description: "My name is Susana, and I write about how learning technologies and family STEM inclusion can help empower families to unlock their children's potential for learning."
-socialImage: ""
----
-
 {% extends 'layouts/base.njk' %}
 
 {# Button #}
@@ -13,7 +8,7 @@ socialImage: ""
       <div class="col-md-6 home-intro__left intro__text-container">
         <div class="home-intro__text">
           <h1 class="intro__title home-intro__title">Welcome to the {{site.name}}!</h1>
-          <p class="home-intro__desc large-paragraph">{{ description }}</p>
+          <p class="home-intro__desc large-paragraph">{{ site.longDescription }}</p>
         </div>
       </div>
       <div class="col-md-6 dot-grid-bg home-intro__right">
