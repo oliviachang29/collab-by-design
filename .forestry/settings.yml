@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Posts
 - type: directory
   path: site/posts
   label: Posts
@@ -22,6 +24,8 @@ sections:
   new_doc_ext: md
   templates:
   - external-post
+- type: heading
+  label: Work
 - type: directory
   path: site/publications
   label: Publications
@@ -40,6 +44,20 @@ sections:
   new_doc_ext: md
   templates:
   - presentation
+- type: heading
+  label: Settings
+- type: document
+  path: site/_data/site.js
+  label: Settings
+  match: "**/*"
+- type: document
+  path: site/_data/navigation.js
+  label: Navigation
+  match: "**/*"
+- type: document
+  path: site/_data/socialMedia.js
+  label: Social Media Links
+  match: "**/*"
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
