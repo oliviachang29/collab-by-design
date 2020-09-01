@@ -1,8 +1,9 @@
 ---
 title: Welcome to the Knowledgy Lab!
-date: "2018-02-18"
-tags:
+date: 2018-02-18
+tags: []
 featured_image: "/uploads/welcome-to-knowledgy-lab.jpg"
+
 ---
 Welcome, readers, to the first post of this journey I call *_Knowledgy Lab_*. Within this space, you will find future posts on learning technologies and family engagement. I would like to use this space to write about the key role of educational media and learning technologies in helping families engage with one another.
 

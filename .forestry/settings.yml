@@ -24,14 +24,14 @@ sections:
   create: all
   match: "**/*"
   exclude: "/site/publications/publications.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: site/presentations
   label: Presentations
   create: all
   match: "**/*"
   exclude: "/site/presentations/presentations.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
