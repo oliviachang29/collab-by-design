@@ -9,28 +9,28 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  exclude: "/site/posts/posts.json"
+  exclude: "**/posts.json"
   new_doc_ext: md
 - type: directory
   path: site/external-posts
   label: External Posts
   create: all
   match: "**/*"
-  exclude: "/site/posts/external-posts/external-posts.json"
+  exclude: "**/external-posts.json"
   new_doc_ext: md
 - type: directory
   path: site/publications
   label: Publications
   create: all
   match: "**/*"
-  exclude: site/publications/publications.json
+  exclude: "**/publications.json"
   new_doc_ext: md
 - type: directory
   path: site/presentations
   label: Presentations
   create: all
   match: "**/*"
-  exclude: site/presentations/presentations.json
+  exclude: "**/presentations.json"
   new_doc_ext: md
 upload_dir: site/static/uploads
 public_path: "/uploads"
