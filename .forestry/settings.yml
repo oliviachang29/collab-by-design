@@ -11,6 +11,8 @@ sections:
   match: "**/*"
   exclude: "**/posts.json"
   new_doc_ext: md
+  templates:
+  - post
 - type: directory
   path: site/external-posts
   label: External Posts
@@ -18,6 +20,8 @@ sections:
   match: "**/*"
   exclude: "**/external-posts.json"
   new_doc_ext: md
+  templates:
+  - external-post
 - type: directory
   path: site/publications
   label: Publications
@@ -25,6 +29,8 @@ sections:
   match: "**/*"
   exclude: "**/publications.json"
   new_doc_ext: md
+  templates:
+  - publication
 - type: directory
   path: site/presentations
   label: Presentations
@@ -32,6 +38,8 @@ sections:
   match: "**/*"
   exclude: "**/presentations.json"
   new_doc_ext: md
+  templates:
+  - presentation
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
