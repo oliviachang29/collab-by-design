@@ -14,3 +14,5 @@ fields:
 - type: file
   name: file
   label: file
+pages:
+- site/publications/public-media-connecting-family-learning-across-settings.md

@@ -14,3 +14,10 @@ fields:
 - type: text
   name: location
   label: location
+pages:
+- site/presentations/broadening-participation-in-stem-re-imagining-the-role-of-latino-parents-as-equal-partners-in-stem-learning.md
+- site/presentations/community-engagement-exploring-ready-to-learns-role-with-community-partnerships.md
+- site/presentations/getting-young-children-ready-to-learn-with-media-resources-and-family-engagement.md
+- site/presentations/learning-ecosystems-parents-as-equal-partners-in-stem.md
+- site/presentations/public-media-innovative-approaches-to-early-learning.md
+- site/presentations/stop-collaborate-and-listen-working-with-latino-families.md
