@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: site/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  exclude: "/site/posts/posts.json"
+  new_doc_ext: ".md"
+- type: directory
   path: site/posts/external-posts
   label: External Posts
   create: all
@@ -12,11 +19,18 @@ sections:
   exclude: "/site/posts/external-posts/external-posts.json"
   new_doc_ext: ".md"
 - type: directory
-  path: site/posts
-  label: Posts
+  path: site/publications
+  label: Publications
   create: all
   match: "**/*"
-  exclude: "/site/posts/posts.json"
+  exclude: "/site/publications/publications.json"
+  new_doc_ext: ".md"
+- type: directory
+  path: site/presentations
+  label: Presentations
+  create: all
+  match: "**/*"
+  exclude: "/site/presentations/presentations.json"
   new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/uploads"
