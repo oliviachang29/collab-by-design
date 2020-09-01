@@ -10,14 +10,14 @@ sections:
   create: all
   match: "**/*"
   exclude: "/site/posts/posts.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
-  path: site/posts/external-posts
+  path: site/external-posts
   label: External Posts
   create: all
   match: "**/*"
   exclude: "/site/posts/external-posts/external-posts.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: site/publications
   label: Publications
