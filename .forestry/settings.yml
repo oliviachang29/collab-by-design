@@ -3,7 +3,21 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: site/posts/external-posts
+  label: External Posts
+  create: all
+  match: "**/*"
+  exclude: "/site/posts/external-posts/external-posts.json"
+  new_doc_ext: ".md"
+- type: directory
+  path: site/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  exclude: "/site/posts/posts.json"
+  new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
