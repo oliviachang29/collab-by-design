@@ -1,0 +1,19 @@
+---
+label: External Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: location
+  label: location
+- type: textarea
+  name: external_link
+  label: external_link
+- type: datetime
+  name: date
+  label: date
