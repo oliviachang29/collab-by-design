@@ -32,7 +32,7 @@ sections:
   match: "**/*"
   exclude: site/presentations/presentations.json
   new_doc_ext: md
-upload_dir: uploads
+upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
