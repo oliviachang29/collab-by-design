@@ -41,7 +41,7 @@ footer {
   font-family: $FONT_MONO;
   font-size: 15px;
   &:hover {
-   text-decoration: underline 
+    text-decoration: underline;
   }
 }
 
@@ -56,5 +56,9 @@ footer {
     margin-left: $SCALE-1;
     font-size: $SCALE-1;
     color: black;
+    @include smooth-transition;
+    &:hover {
+      color: $turquoise;
+    }
   }
 }

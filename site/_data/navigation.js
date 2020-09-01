@@ -25,24 +25,6 @@ const nav = {
       external: false,
     },
   ],
-  social_media_icons: [
-    {
-      type: "Facebook",
-      url: "#",
-    },
-    {
-      type: "Twitter",
-      url: "https://twitter.com/EdGalPBS"
-    },
-    {
-      type: "Linkedin",
-      url: "#",
-    },
-    {
-      type: "Email",
-      url: "#",
-    },
-  ],
 };
 
 const nav_halfway = nav.items.length / 2;
