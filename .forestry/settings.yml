@@ -7,12 +7,17 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: site/about.njk
+  path: site/_data/about.json
   label: About
 - type: document
-  path: contact.njk
+  path: site/_data/contact.json
   label: Contact
-  match: "**/*"
+- type: directory
+  path: site
+  label: Other Pages
+  create: all
+  match: "**/*.md"
+  new_doc_ext: ".md"
 - type: heading
   label: Posts
 - type: directory
