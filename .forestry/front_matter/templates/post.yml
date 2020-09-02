@@ -10,8 +10,7 @@ fields:
 - type: datetime
   name: date
   label: Date Published
-  description: The publish date for the article. You can ignore the time—it won't
-    be displayed!
+  description: The publish date for the article.
   config:
     date_format: MM/DD/YY
     required: true
