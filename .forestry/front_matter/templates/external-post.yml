@@ -4,15 +4,24 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: description
   label: Post Description
   description: "<em>Optional</em> If not provided, it will automatically use the first
     30 words of the post."
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+  description: "<em>Optional </em>The main image for the article, appears at the top
+    of the page."
 - type: text
   name: location
-  description: Where was this originally posted?
+  description: Where this was originally posted.
   label: Original Post Location
   config:
     required: true
