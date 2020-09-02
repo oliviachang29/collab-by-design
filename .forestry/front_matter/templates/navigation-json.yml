@@ -20,25 +20,9 @@ fields:
     label: Link URL
     description: The url of the link.
     showOnly:
-      field: external
       value: true
     config:
       required: false
-  - name: internal_url
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: 
-        file: 
-        path: 
-    label: Link URL
-    description: Choose an internal URL from the site.
-    showOnly:
-      field: external
   - type: file
     name: icon
     label: Icon
