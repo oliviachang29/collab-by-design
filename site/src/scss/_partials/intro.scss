@@ -130,12 +130,14 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
   align-items: center;
   @media (min-width: $md) {
     justify-content: flex-end;
+    padding-right: $SCALE-2;
   }
 }
 
 .about-intro__image {
   width: calc(150px + 5vw);
   height: calc(150px + 5vw);
+  object-fit: cover;
   @media (min-width: $md) {
     width: 150px;
     height: 150px;
@@ -148,6 +150,5 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
   text-align: center;
   @media (min-width: $md) {
     text-align: left;
-    padding-left: $SCALE-2;
   }
 }
