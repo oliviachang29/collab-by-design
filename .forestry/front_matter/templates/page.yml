@@ -17,3 +17,5 @@ fields:
   name: description
   label: Description
   description: The page description.
+pages:
+- site/success.md
