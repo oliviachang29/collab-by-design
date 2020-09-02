@@ -8,12 +8,14 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: list
-  name: tags
-  label: tags
 - type: file
   name: featured_image
   label: featured_image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: Phrases related to the post content
 pages:
 - site/posts/2018-02-05-active-learning-happens-everywhere.md
 - site/posts/2018-02-18-welcome-to-the-knowledgy-lab.md
