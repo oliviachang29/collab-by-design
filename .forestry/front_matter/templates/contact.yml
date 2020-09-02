@@ -1,0 +1,23 @@
+---
+label: Contact
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: send_button
+  label: send_button
+- type: field_group_list
+  name: form_fields
+  label: form_fields
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: type
+    label: type
