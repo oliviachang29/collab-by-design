@@ -4,20 +4,48 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: The page title.
 - type: text
   name: description
-  label: description
+  label: Description
+  description: The page description.
 - type: text
   name: send_button
-  label: send_button
+  label: Button Text
+  description: The text in the button underneath the Contact form.
+  config:
+    required: true
 - type: field_group_list
   name: form_fields
   label: form_fields
   fields:
   - type: text
     name: title
-    label: title
-  - type: text
-    name: type
-    label: type
+    label: Field Title
+  - name: type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - single_line
+      - multiline
+      - dropdown
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
+    description: The field type
+  - name: dropdown_options
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Dropdown options
+    showOnly:
+      field: type
+      value: dropdown
