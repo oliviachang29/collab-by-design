@@ -3,24 +3,28 @@
     "text": "Blog",
     "url": "/posts",
     "icon": "/icons/blog.svg",
-    "external": false
+    "external": false,
+    "internal_url": ""
   },
   {
     "text": "Work",
     "url": "/work",
     "icon": "/icons/work.svg",
-    "external": false
+    "external": false,
+    "internal_url": ""
   },
   {
     "text": "About",
     "url": "/about",
     "icon": "/icons/about.svg",
-    "external": false
+    "external": false,
+    "internal_url": ""
   },
   {
     "text": "Contact",
     "url": "/contact",
     "icon": "/icons/contact.svg",
-    "external": false
+    "external": false,
+    "internal_url": ""
   }
 ]

@@ -42,3 +42,5 @@ fields:
     description: Choose an internal URL from the site.
     showOnly:
       field: external
+pages:
+- site/_data/navigation.json
