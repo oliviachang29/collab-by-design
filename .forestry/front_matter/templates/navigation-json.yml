@@ -8,13 +8,36 @@ fields:
   fields:
   - type: text
     name: text
-    label: text
+    label: Link Name
+    description: The text used for the link.
   - type: text
     name: url
-    label: url
+    label: Link URL
+    description: The url of the link.
+    showOnly:
+      field: external
+    config:
+      required: false
   - type: file
     name: icon
     label: icon
   - type: boolean
     name: external
-    label: external
+    label: Is the link external?
+    description: Whether the link goes to somewhere not on this site.
+    default: false
+  - name: internal_url
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Link URL
+    description: Choose an internal URL from the site.
+    showOnly:
+      field: external
