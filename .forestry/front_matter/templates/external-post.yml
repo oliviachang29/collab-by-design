@@ -25,7 +25,9 @@ fields:
 - type: datetime
   name: date
   label: Date
-  description: Date that this was published (the time doesn't matter)
+  description: The publish date for the article.
+  config:
+    date_format: MM/DD/YYYY
 pages:
 - site/external-posts/2018-06-09-life-as-a-doctoral-student.md
 - site/external-posts/2020-03-15-five-tips-for-parents-balancing-screen-time-during-school-closures.md
