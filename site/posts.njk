@@ -15,9 +15,9 @@ pagination:
 {% set listItems = posts %}
 
 {% block content %}
-  {% include "partials/intro.njk" %}
-  {% include "partials/post-list.njk" %}
+  {% include "partials/global/intro.njk" %}
+  {% include "partials/list/post-list.njk" %}
   {% if listItems.length < collections.posts.length %}
-    {% include "partials/pagination.njk" %}
+    {% include "partials/list/pagination.njk" %}
   {% endif %}
 {% endblock %}

@@ -3,7 +3,7 @@
     {% if listHeading %}
       {% set sectionTitle = listHeading %}
       {% set sectionHeadingClass = 'work-section-heading' %}
-      {% include "partials/section-heading.njk" %}
+      {% include "partials/global/section-heading.njk" %}
     {% endif %}
     <div class="row list-row work-list-row list-row-no-padding-bottom">
       {% for item in listItems %}
@@ -20,7 +20,7 @@
       {% set buttonText = "See More" %}
       {% set shownText = "See Less" %}
       {% set buttonClasses = 'btn-center btn-collapse' %}
-      {% include "partials/button.njk" %}
+      {% include "partials/global/button.njk" %}
     {% endif %}
   </div>
 {% endif %}

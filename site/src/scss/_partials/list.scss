@@ -63,10 +63,11 @@
   *:hover {
     text-decoration: none;
   }
-
-  &:hover {
-    .post-list-item__read-more {
-      margin-left: 10px;
+  @media (min-width: $md) {
+    &:hover {
+      .post-list-item__read-more {
+        margin-left: 10px;
+      }
     }
   }
 }

@@ -29,9 +29,12 @@
 }
 
 .post-page__content p, li, blockquote, span {
-  font-size: calc(1.1rem + 0.1vw);
-  line-height: calc(1.9rem + 0.1vw);
+  font-size: calc(1.05rem + 0.15vw);
+  line-height: calc(1.80rem + 0.10vw);
   margin-bottom: $SCALE-1;
+  @media (min-width: $md) {
+    line-height: calc(1.90rem + 0.15vw);
+  }
 }
 
 .post-page__content li {

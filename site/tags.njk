@@ -22,6 +22,6 @@ permalink: /tags/{{ tag }}/
 {% set introDescription %}{{ listItems.length}} posts{% endset %}
 
 {% block content %}
-  {% include "partials/intro.njk" %}
-  {% include "partials/post-list.njk" %}
+  {% include "partials/global/intro.njk" %}
+  {% include "partials/list/post-list.njk" %}
 {% endblock %}

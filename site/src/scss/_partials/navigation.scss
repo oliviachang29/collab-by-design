@@ -15,13 +15,14 @@ $underline-height: 55%;
 
 #navbar-desktop .nav-item {
   transition: background-size 0.2s ease-out;
-  background: linear-gradient($turquoise, $turquoise) no-repeat left 127%/0 $underline-height;
+  background: linear-gradient($pink, $pink) no-repeat left 127%/0 $underline-height;
   &:hover {
     @include nav-link-active;
   }
 }
 
 #navbar-desktop .nav-item.active {
+  background: linear-gradient($gold, $gold) no-repeat right 127%/0 $underline-height;
   @include nav-link-active;
 }
 

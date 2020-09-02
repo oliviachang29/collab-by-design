@@ -20,7 +20,7 @@
         {% set sectionTitle = section.title %}
         {% set sectionColor = section.color %}
         {% set sectionHeadingClass = 'about-section-heading' %}
-        {% include "partials/section-heading.njk" %}
+        {% include "partials/global/section-heading.njk" %}
         {{ section.content | safe }}
       </div>
     {% endfor %}

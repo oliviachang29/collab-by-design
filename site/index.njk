@@ -22,22 +22,22 @@
   {% set listItems = collections
     .posts
     .slice(0, site.numPostsHomePage) %}
-  {% include "partials/post-list.njk" %}
+  {% include "partials/list/post-list.njk" %}
 
   {% set buttonText = "See more posts" %}
   {% set buttonLink = '/posts' %}
   {% set buttonClasses = 'btn-center' %}
-  {% include "partials/button.njk" %}
+  {% include "partials/global/button.njk" %}
 
   {# Post list content #}
   {% set listHeading = 'External posts' %}
   {% set listItems = collections
     .externalPosts
     .slice(0, site.numExternalPostsHomePage) %}
-  {% include "partials/work-list.njk" %}
+  {% include "partials/list/work-list.njk" %}
   {% set buttonText = "See more posts" %}
   {% set buttonLink = '/work' %}
   {% set buttonClasses = 'btn-center' %}
-  {% include "partials/button.njk" %}
+  {% include "partials/global/button.njk" %}
 
 {% endblock %}

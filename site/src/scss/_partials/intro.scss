@@ -69,14 +69,11 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .post-intro {
   @media (min-width: $md) {
     text-align: center;
-    padding-top: 0;
+    padding-top: $SCALE-4;
     padding-bottom: 0;
   }
-}
-
-.post-intro__left {
-  @media (min-width: $md) {
-    padding: $home-intro-padding 0 calc(2 * #{$SCALE-5});
+  @media (min-width: $lg) {
+    padding-bottom: $SCALE-4;
   }
 }
 

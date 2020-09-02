@@ -5,3 +5,11 @@
   -o-transition: all 0.25s; /* Opera */
   transition: all 0.25s;
 }
+
+@mixin fast-transition {
+  -webkit-transition: all 0.15s; /* Safari and Chrome */
+  -moz-transition: all 0.15s; /* Firefox */
+  -ms-transition: all 0.15s; /* IE 9 */
+  -o-transition: all 0.15s; /* Opera */
+  transition: all 0.15s;
+}

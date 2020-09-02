@@ -10,7 +10,7 @@ description: "Working papers, conferences, and poster paper presentations."
 {% block content %}
     {% set introTitle = title %}
     {% set introDescription = description %}
-    {% include "partials/intro.njk" %}
+    {% include "partials/global/intro.njk" %}
 
     {# External posts #}
     {% set listHeading = 'Publications' %}
@@ -21,7 +21,7 @@ description: "Working papers, conferences, and poster paper presentations."
     {% set hiddenListItems = collections
         .publications
         .slice(4, collections.publications.size) %}
-    {% include "partials/work-list.njk" %}
+    {% include "partials/list/work-list.njk" %}
 
     {# External posts #}
     {% set listHeading = 'Presentations' %}
@@ -32,7 +32,7 @@ description: "Working papers, conferences, and poster paper presentations."
     {% set hiddenListItems = collections
         .presentations
         .slice(4, collections.presentations.size) %}
-    {% include "partials/work-list.njk" %}
+    {% include "partials/list/work-list.njk" %}
 
     {# External posts #}
     {% set listHeading = 'External posts' %}
@@ -43,6 +43,6 @@ description: "Working papers, conferences, and poster paper presentations."
     {% set hiddenListItems = collections
         .externalPosts
         .slice(4, collections.externalPosts.size) %}
-    {% include "partials/work-list.njk" %}
+    {% include "partials/list/work-list.njk" %}
 
 {% endblock %}

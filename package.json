@@ -28,7 +28,6 @@
     "eleventy-plugin-blog-tools": "^0.3.1",
     "excerpts": "0.0.3",
     "html-minifier": "^4.0.0",
-    "lozad": "^1.14.0",
     "memfs": "^3.1.2",
     "node-sass": "^4.14.0",
     "slugify": "^1.4.0",

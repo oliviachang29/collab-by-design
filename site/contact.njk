@@ -6,12 +6,12 @@
 
 {% block content %}
   <div class="contact-page__container">
-    {% include "partials/intro.njk" %}
+    {% include "partials/global/intro.njk" %}
 
     {% set sectionTitle = "Contact Form" %}
     {% set sectionColor = "#CBF0E8" %}
     {% set sectionHeadingClass = 'about-section-heading' %}
-    {% include "partials/section-heading.njk" %}
+    {% include "partials/global/section-heading.njk" %}
 
     <form name="contact" method="POST" action="/success" netlify netlify-honeypot="bot-field">
       {% for field in contact.form_fields %}

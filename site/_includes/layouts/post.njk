@@ -14,7 +14,7 @@
 
   <article>
     {% if featured_image %}
-      {% include "partials/post-intro.njk" %}
+      {% include "partials/post-page/post-intro.njk" %}
     {% endif %}
 
     <div class="post-page__container">
@@ -22,7 +22,7 @@
         {% set introTitle = title %}
         {% set introDescription = description if description %}
         {% set introAuthor = 'by ' + authorName %}
-        {% include "partials/intro.njk" %}
+        {% include "partials/global/intro.njk" %}
       {% endif %}
       <div class="post-page__content">
         {% if external_link %}
@@ -50,7 +50,7 @@
       {% if related %}
         {% set listHeading = 'Related posts' %}
         {% set listItems = related %}
-        {% include "partials/post-list.njk" %}
+        {% include "partials/list/post-list.njk" %}
       {% endif %}
 
     </article>

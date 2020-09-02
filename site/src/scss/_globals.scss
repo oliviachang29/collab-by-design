@@ -1,3 +1,8 @@
+img {
+  opacity: 0;
+  @include fast-transition
+}
+
 .base-container {
   padding: 0 2rem;
   @media (min-width: $lg) {
