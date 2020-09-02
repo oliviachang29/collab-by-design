@@ -9,6 +9,9 @@ sections:
 - type: document
   path: site/about.njk
   label: About
+- type: document
+  path: contact.njk
+  label: Contact
   match: "**/*"
 - type: heading
   label: Posts
