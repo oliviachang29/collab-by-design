@@ -1,0 +1,26 @@
+{
+  "title": "About Me",
+  "description": "Susana has been working in the field of education for the past 10 years developing and implementing innovative education initiatives. She currently oversees PBS SoCal’s early learning initiative in technology and media for learning with a focus on parent engagement.",
+  "sections": [
+    {
+      "title": "Work Experience",
+      "content": "<p>Susana has managed the Parent Institute for Quality Education (PIQE) parent engagement initiatives. During her time at PIQE, she developed and cultivated relationships with school administrators, families, and community leaders. She implemented educational programs like the STEM Parent Engagement in Education and the K-3rd Parent Literacy programs. At PBS SoCal, Susana is responsible for building, sustaining and expanding mutually beneficial relationships between the station and the Southern California community, while identifying key areas of opportunity for engagement. She has experience in leading innovative collaboratives for early learning media with a focus on family and community engagement. Susana has designed STEM parent curricula using learning technologies and the PBS KIDS assets to launch a series of parent engagement workshops.  The workshops are designed for English as a second language (ESL) and bilingual families.</p>",
+      "color": "#CBF0E8"
+    },
+    {
+      "title": "Services",
+      "content": "<p>In addition to working on a doctorate program, Susana conducts professional development trainings, parent workshops, and presentations in early learning media, technology, and STEM. She is known for her practical presentations on educational learning technologies and media to help families engage with one another and to help empower families to unlock their potential for learning.  She has been asked by organizations such as the Fred Rogers Company, to review their mobile apps for parents in development and is considered an expert in the field when making digital technology accessible and appropriate for Spanish Language families. She currently serves on the National Educational Telecommunications Association (NETA) board advising the public media system on the effective use of public media within Education.</p>",
+      "color": "#FFDEB5"
+    },
+    {
+      "title": "Education",
+      "content": "<p>Susana has a Bachelor of Arts degree in Asian American Studies and a minor in Applied Psychology in Education from the University of California, Santa Barbara. She holds a Master’s degree in Public Administration (MPA) from the California State University, Long Beach. She is currently a student in the Doctor of Education in Learning Technologies program at Pepperdine University.</p>",
+      "color": "#FFD672"
+    },
+    {
+      "title": "Skills & Languages",
+      "content": "<p>Susana’s passion is to help address the needs of families in at-risk communities and neighborhoods with engaging educational digital, online, and on-air content. You can find her on Twitter (@EdGalPBS) tweeting about education, learning technologies, and community engagement.</p>",
+      "color": "#FFB469"
+    }
+  ]
+}

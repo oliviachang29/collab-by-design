@@ -1,0 +1,30 @@
+{
+  "title": "Contact Me",
+  "description": "Questions? Comments? Please fill out the form below and I will reply within 48 hours.",
+  "send_button": "Send",
+  "form_fields": [
+    {
+      "title": "Your name",
+      "type": "single_line"
+    },
+    {
+      "title": "Your email address",
+      "type": "single_line"
+    },
+    {
+      "title": "Reason for contact",
+      "type": "dropdown",
+      "dropdown_options": [
+        "Workshop booking",
+        "Presentation",
+        "Help with something",
+        "Writing requests",
+        "Other"
+      ]
+    },
+    {
+      "title": "Your message",
+      "type": "multiline"
+    }
+  ]
+}

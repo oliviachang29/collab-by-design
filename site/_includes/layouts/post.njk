@@ -21,7 +21,7 @@
       {% if not featured_image %}
         {% set introTitle = title %}
         {% set introDescription = description if description %}
-        {% set introAuthor = 'by ' + authorName%}
+        {% set introAuthor = 'by ' + authorName %}
         {% include "partials/intro.njk" %}
       {% endif %}
       <div class="post-page__content">

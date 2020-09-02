@@ -1,28 +1,8 @@
---- 
-title: Contact Me
-description: Questions? Comments? Please fill out the form below and I will reply within 48 hours.
-form_fields:
-  - title: "Your name"
-    type: 'single_line'
-  - title: "Your email address"
-    type: 'single_line'
-  - title: "Reason for contact"
-    type: 'dropdown'
-    dropdown_options:
-      - Workshop booking
-      - Presentation
-      - Help with something
-      - Writing requests
-      - Other
-  - title: 'Your message'
-    type: 'multiline'
----
-
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introTitle = title %}
-{% set introDescription = description %}
+{% set introTitle = contact.title %}
+{% set introDescription = contact.description %}
 
 {% block content %}
   <div class="contact-page__container">
@@ -34,7 +14,7 @@ form_fields:
     {% include "partials/section-heading.njk" %}
 
     <form name="contact" method="POST" action="/success" netlify netlify-honeypot="bot-field">
-      {% for field in form_fields %}
+      {% for field in contact.form_fields %}
         {% if field.type === 'single_line' %}
           <input class="form-control form-control-text" type="text" name="{{field.title}}" placeholder="{{field.title}}"/>
         {% endif %}
@@ -57,7 +37,7 @@ form_fields:
       <div data-netlify-recaptcha="true"></div>
       <div class="honeypot"><input name="bot-field"/></div>
 
-      <button type="submit" class="btn contact__submit-button">Send</button>
+      <button type="submit" class="btn contact__submit-button">{{contact.send_button}}</button>
     </form>
   </div>
 {% endblock %}
