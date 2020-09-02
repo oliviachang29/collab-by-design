@@ -47,17 +47,14 @@ sections:
 - type: heading
   label: Settings
 - type: document
-  path: site/_data/site.js
+  path: site/_data/site.json
   label: Settings
-  match: "**/*"
 - type: document
-  path: site/_data/navigation.js
+  path: site/_data/navigation.json
   label: Navigation
-  match: "**/*"
 - type: document
-  path: site/_data/socialMedia.js
+  path: site/_data/socialMedia.json
   label: Social Media Links
-  match: "**/*"
 upload_dir: site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
