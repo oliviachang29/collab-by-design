@@ -2,28 +2,22 @@
   {% set externalAttribute = '' %}
   {% set currentAttribute = '' %}
 
-  {% if item.internal_url %}
-    {% set url = item.internal_url %}
-  {% else %}
-    {% set url = item.url %}
-  {% endif %}
-
   {% if item.external %}
     {% set externalAttribute = ' rel="external"' %}
   {% endif %}
 
-  {% if page.url == url %}
+  {% if page.url == item.url %}
     {% set currentAttribute = ' aria-current="page"' %}
   {% endif %}
 
   {% if navType == 'navbar' %}
-    <a href="{{ url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }} class="nav-item {% if navMobile =='true' %}nav-mobile{% endif %}">
+    <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }} class="nav-item {% if navMobile =='true' %}nav-mobile{% endif %}">
       <img src="{{item.icon}}" class="nav-item__icon">
       <p class="nav-link">{{ item.text }}</p>
     </a>
   {% elseif navType == 'footer' %}
     <li class="footer-link">
-      <a href="{{ url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>{{item.text}}</a>
+      <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>{{item.text}}</a>
     </li>
   {% endif %}
 {% endfor %}
