@@ -1,5 +1,6 @@
 ---
-layout: 'layouts/page.njk'
-title: 'Test Page'
-description: 'I am a test page'
+layout: layouts/page.njk
+title: Test Page
+description: I am a test page
+
 ---

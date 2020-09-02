@@ -19,3 +19,4 @@ fields:
   description: The page description.
 pages:
 - site/success.md
+- site/test.md
