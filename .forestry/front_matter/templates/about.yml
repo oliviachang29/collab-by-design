@@ -6,10 +6,14 @@ fields:
   name: title
   label: title
   description: The page title.
+  config:
+    required: true
 - type: textarea
   name: description
   label: description
   description: The page description.
+  config:
+    required: true
 - name: image
   type: file
   config:
@@ -18,16 +22,25 @@ fields:
   description: The square image that appears next to the page title and description.
 - type: field_group_list
   name: sections
-  label: sections
   fields:
+  - name: color
+    type: color
+    label: Heading Color
+    config:
+      required: false
+      color_format: Hex
+    description: The color of the heading that appears above the paragraph.
   - type: text
     name: title
-    label: title
+    label: Heading
+    description: The text that appears above the paragraph.
   - type: textarea
     name: content
-    label: content
-  - type: text
-    name: color
-    label: color
+    config:
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Section Content
+  label: Section
 pages:
 - site/_data/about.json
