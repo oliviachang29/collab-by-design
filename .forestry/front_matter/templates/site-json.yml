@@ -4,43 +4,54 @@ hide_body: true
 fields:
 - type: text
   name: name
-  label: name
-- type: text
-  name: footerDescription
-  label: footerDescription
-- type: text
-  name: homeIntroTitle
-  label: homeIntroTitle
-- type: textarea
-  name: homeIntroDescription
-  label: homeIntroDescription
+  label: Site Name
 - type: text
   name: url
-  label: url
+  label: Site URL
+  description: The full URL of the site.
+- type: text
+  name: homeIntroTitle
+  label: Home Intro Title
+  description: The title text that appears in the home intro, next to the image.
+- type: textarea
+  name: homeIntroDescription
+  label: Home Intro Description
+  description: The smaller text that appears in the home intro, next to the home image.
+- type: text
+  name: footerDescription
+  label: Footer Description
+  description: The short site description that appears at the bottom of the site.
 - type: text
   name: authorEmail
-  label: authorEmail
+  label: RSS Feed Email
+  description: The email that appears in the RSS feed (at https://knowledgylab.com/feed.xml).
 - type: text
   name: authorName
-  label: authorName
-- type: number
-  name: postsPerPage
-  label: postsPerPage
+  label: Default Author Name
+  description: The default name to use for a post, if an author name is not specified
+    for the post.
 - type: number
   name: numPostsHomePage
-  label: numPostsHomePage
+  label: Number of Posts on Home Page
+  description: Number of latest posts to show on the home page.
 - type: number
   name: numExternalPostsHomePage
-  label: numExternalPostsHomePage
+  label: Number of External Posts on Home Page
+  description: Number of latest external posts to show on the home page.
 - type: file
   name: socialImage
-  label: socialImage
+  label: Social Image
+  description: The preview image that appears when the site is shared on Twitter,
+    Facebook, and other social platforms.
 - type: text
   name: newsletter_title
-  label: newsletter_title
+  label: Newsletter Title
+  description: The large text that appears next to the "Subscribe" form.
 - type: text
   name: newsletter_subtitle
-  label: newsletter_subtitle
+  label: Newsletter Subtitle
+  description: The text that appears underneath the Newsletter title.
 - type: boolean
   name: criticalCSS
   label: criticalCSS
+  hidden: true
