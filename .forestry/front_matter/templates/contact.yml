@@ -38,7 +38,10 @@ fields:
         file: 
         path: 
     label: Type
-    description: The field type
+    description: The field type.<br>* Single line is used for fields like name, email,
+      etc.<br>* Multiline is used for long fields like message.<br>* Dropdown is used
+      for fields where users should select from a list of options—exactly like this
+      field!
   - name: dropdown_options
     type: list
     config:
