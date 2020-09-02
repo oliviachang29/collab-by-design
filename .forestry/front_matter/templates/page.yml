@@ -5,9 +5,15 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  config:
+    required: true
+  default: layouts/page.njk
 - type: text
   name: title
-  label: title
+  label: Title
+  description: The page title.
 - type: text
   name: description
-  label: description
+  label: Description
+  description: The page description.
