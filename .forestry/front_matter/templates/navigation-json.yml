@@ -1,0 +1,20 @@
+---
+label: navigation.json
+hide_body: true
+fields:
+- type: field_group_list
+  name: Navigation
+  label: Navigation
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+  - type: file
+    name: icon
+    label: icon
+  - type: boolean
+    name: external
+    label: external
