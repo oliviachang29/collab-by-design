@@ -34,14 +34,16 @@ $left-padding: $SCALE-5;
 // home
 $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .home-intro {
-  padding: calc(#{$SCALE-4} + 2vh) 0;
+  padding-top: calc(#{$SCALE-4} + 2vh);
+  padding-bottom: calc(#{$SCALE-4} + 2vh);
   // margin: $SCALE-1 0;
   flex-direction: column-reverse;
   @media (min-width: $md) {
     flex-direction: row;
   }
   @media (min-width: $lg) {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
