@@ -18,7 +18,7 @@ fields:
     required: true
 - type: field_group_list
   name: form_fields
-  label: form_fields
+  label: Form Fields
   fields:
   - type: text
     name: title
@@ -49,5 +49,6 @@ fields:
     showOnly:
       field: type
       value: dropdown
+  description: The fields in the form.
 pages:
 - site/_data/contact.json
