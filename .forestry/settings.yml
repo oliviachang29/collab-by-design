@@ -16,8 +16,8 @@ sections:
   path: site
   label: Other Pages
   create: all
-  match: "**/*.md"
-  new_doc_ext: ".md"
+  match: site/*.md
+  new_doc_ext: md
 - type: heading
   label: Posts
 - type: directory
