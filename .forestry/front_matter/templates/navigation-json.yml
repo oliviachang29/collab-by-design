@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group_list
   name: Navigation
-  label: Navigation
+  label: Link
   fields:
   - type: text
     name: text
@@ -20,7 +20,8 @@ fields:
       required: false
   - type: file
     name: icon
-    label: icon
+    label: Icon
+    description: The icon for the Link.
   - type: boolean
     name: external
     label: Is the link external?
