@@ -49,3 +49,5 @@ fields:
     showOnly:
       field: type
       value: dropdown
+pages:
+- site/_data/contact.json

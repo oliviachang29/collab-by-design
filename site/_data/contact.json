@@ -5,11 +5,17 @@
   "form_fields": [
     {
       "title": "Your name",
-      "type": "single_line"
+      "type": "single_line",
+      "dropdown_options": [
+
+      ]
     },
     {
       "title": "Your email address",
-      "type": "single_line"
+      "type": "single_line",
+      "dropdown_options": [
+
+      ]
     },
     {
       "title": "Reason for contact",
@@ -24,7 +30,10 @@
     },
     {
       "title": "Your message",
-      "type": "multiline"
+      "type": "multiline",
+      "dropdown_options": [
+
+      ]
     }
   ]
 }
