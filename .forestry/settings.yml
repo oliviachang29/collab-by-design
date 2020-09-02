@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Pages
+- type: document
+  path: site/about.njk
+  label: About
+  match: "**/*"
+- type: heading
   label: Posts
 - type: directory
   path: site/posts
