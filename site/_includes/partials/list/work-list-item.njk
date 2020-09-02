@@ -1,9 +1,9 @@
-<div class="{% if listItems.length === 1 %}col-lg-10{%else %}col-lg-6{%endif%} list-item__container work-list-item__outer-container" style="border-left-color:{{item.data.color}}">
+<div class="{% if listItems.length === 1 %}col-lg-10{%else %}col-lg-6{%endif%} list-item__container work-list-item__outer-container" style="border-color:{{item.data.color}}">
   {# no links on presentations #}
   {% if listHeading !== 'Presentations' %}
     <a href="{% if item.data.file %}{{item.data.file}}{%else%}{{ item.url }}{%endif%}" rel="bookmark" {% if item.data.file %}target="_blank"{%endif%}>
     {% endif %}
-    <div class="work-list-item__inner-container">
+    <div class="work-list-item__inner-container" style="border-color:{{item.data.color}}">
       <h2 class="list-item__title work-list-item__title">{{ item.data.title }}</h2>
       <p class="list-item__description work-list-item__description">
       {% if item.data.description %}

@@ -53,15 +53,16 @@ $underline-height: 55%;
 }
 
 .nav-mobile {
-  padding: 1rem $SCALE-2;
+  padding: 0.75rem $SCALE-2;
   margin: 0.25rem 0;
 }
 
 #navbar-mobile .navbar-nav {
-  padding: 1rem 0 $SCALE-1;
+  padding: 0 0 $SCALE-1;
 }
 
 .navbar-toggler {
+  padding-top: $SCALE-1;
   border: none;
   &:focus {
     outline: none

@@ -48,6 +48,7 @@ $btn-color: $turquoise;
   width: 100%;
   background: linear-gradient(to top, $gold 13%, transparent 13%);
   text-align: center;
+  margin-bottom: $SCALE-2;
   @media (min-width: $sm) {
     text-align: left;
   }
@@ -66,6 +67,12 @@ $btn-color: $turquoise;
 
 .post-section-heading {
   margin-bottom: $SCALE-4;
+}
+
+.work-section-heading {
+  @media (max-width: $md) {
+    margin-bottom: $SCALE-1;
+  }
 }
 
 .about-section-heading {

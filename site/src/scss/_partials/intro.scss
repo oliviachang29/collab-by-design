@@ -1,8 +1,9 @@
 $left-padding: $SCALE-5;
 
 .default-intro {
-  padding: $SCALE-5 0 $SCALE-4;
+  padding: $SCALE-2 0 $SCALE-3;
   @media (min-width: $sm) {
+    padding: $SCALE-5 0 $SCALE-4;
     padding-left: $left-padding;
     margin-left: -$left-padding;
   }
@@ -34,7 +35,7 @@ $left-padding: $SCALE-5;
 $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .home-intro {
   padding: calc(#{$SCALE-4} + 2vh) 0;
-  margin: $SCALE-1 0;
+  // margin: $SCALE-1 0;
   flex-direction: column-reverse;
   @media (min-width: $md) {
     flex-direction: row;
@@ -144,9 +145,9 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 }
 
 .about-intro__right {
-  padding-left: $SCALE-2;
   text-align: center;
   @media (min-width: $md) {
     text-align: left;
+    padding-left: $SCALE-2;
   }
 }

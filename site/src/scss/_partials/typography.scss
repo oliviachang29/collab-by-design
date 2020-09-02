@@ -53,7 +53,7 @@ h4 {
 
 .large-paragraph {
   // line-height: 33px;
-  font-size: 1.2rem;
+  font-size: calc(1.1rem + 0.1vw);
 }
 
 .mono {

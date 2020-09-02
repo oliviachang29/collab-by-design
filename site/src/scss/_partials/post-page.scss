@@ -1,5 +1,5 @@
 .post-page__container {
-  padding: 0 $SCALE-1 $SCALE-3;
+  padding: 0 0 $SCALE-3;
   max-width: 650px;
   margin: 0 auto;
 }
@@ -24,8 +24,8 @@
 }
 
 .post-page__content p, li, blockquote, span {
-  font-size: calc(1.2rem + 0.05vw);
-  line-height: calc(2rem + 0.05vw);
+  font-size: calc(1.1rem + 0.1vw);
+  line-height: calc(1.9rem + 0.1vw);
   margin-bottom: $SCALE-1;
 }
 
