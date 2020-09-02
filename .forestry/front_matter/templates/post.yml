@@ -25,6 +25,13 @@ fields:
   default: []
   label: tags
   description: Phrases related to the post content
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: "<em>Optional </em>The post description to use on the home and blog
+    page. If not provided, it automatically uses the first 30 words of the post."
 pages:
 - site/posts/2018-02-05-active-learning-happens-everywhere.md
 - site/posts/2018-02-18-welcome-to-the-knowledgy-lab.md
