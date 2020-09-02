@@ -1,6 +1,6 @@
 ---
 title: Active Learning Happens Everywhere
-date: "2018-02-05"
+date: "2018-02-18"
 tags:
 - EdTech
 - Informal Learning
@@ -16,13 +16,3 @@ The discussion around formal and informal setting has been debated for awhile. T
 Re-imagining the role of parents as equal partners in learning. The mother in this story saw an opportunity to learn and passed down what she learned to her son. She understood how learning outside the classroom can support her child's academic success. Subjects like STEM can be the cause of considerable anxiety for many caregivers. Engaging these families with easy, accessible, and bilingual content and resources can change their perceptions about outside the classroom learning, just like the mom in this story. When families understand how to link concepts like subitizing or circuits at home, an increased level of personal confidence become a conduit to inspired their kids to learn.
 
 Learning outside the classroom can be tricky. Many would argue that formal learning is the "right way." However, we need to be mindful that parent engagement can be that spark to support learning outside the classroom and media and technology can be the tools to empower these families and children to engage with one another to unlock their power for learning, just like the families in these photos.
-
-&nbsp;
-
-[caption id="attachment_752" align="alignleft" width="200"]<a href="http://knowledgylab.com/wp-content/uploads/2013/10/IMG_4151_preview.jpeg"><img class="wp-image-752 size-medium" src="http://knowledgylab.com/wp-content/uploads/2013/10/IMG_4151_preview-200x300.jpeg" alt="" width="200" height="300" /></a> A parent learning how to code with PBS KIDS Scratch Jr.[/caption]
-
-[caption id="attachment_753" align="aligncenter" width="200"]<a href="http://knowledgylab.com/wp-content/uploads/2013/10/IMG_4247_preview.jpeg"><img class="wp-image-753 size-medium" src="http://knowledgylab.com/wp-content/uploads/2013/10/IMG_4247_preview-200x300.jpeg" alt="" width="200" height="300" /></a> A dad teaching his child what he learned about coding.[/caption]
-
-[caption id="attachment_757" align="alignnone" width="300"]<a href="http://knowledgylab.com/wp-content/uploads/2013/10/Picture5.png"><img class="wp-image-757 size-medium" src="http://knowledgylab.com/wp-content/uploads/2013/10/Picture5-300x170.png" alt="" width="300" height="170" /></a> A group of moms learning about astronomy with Ready Jet Go![/caption]
-
-[caption id="attachment_758" align="alignleft" width="300"]<a href="http://knowledgylab.com/wp-content/uploads/2013/10/Picture6.png"><img class="wp-image-758 size-medium" src="http://knowledgylab.com/wp-content/uploads/2013/10/Picture6-300x169.png" alt="" width="300" height="169" /></a> A group of moms making an LED constellation, inspired by Ready Jet Go![/caption]

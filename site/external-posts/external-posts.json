@@ -1,4 +1,3 @@
 {
-  "tags": "external-posts",
   "layout": "layouts/post.njk"
 }

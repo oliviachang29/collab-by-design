@@ -57,7 +57,7 @@
 
   @media (min-width: $md) {
     flex-direction: row;
-    padding-left: $SCALE-2;
+    padding-right: $SCALE-3;
   }
 
   *:hover {
@@ -73,7 +73,7 @@
 
 .post-list-item__left {
   @media (min-width: $md) {
-    margin: $SCALE-1 $SCALE-3 0 $SCALE-2;
+    margin: $SCALE-1 $SCALE-2 0 0.3rem;
     text-align: center;
   }
 }
@@ -97,7 +97,7 @@
 }
 
 .post-list-item__image {
-  width: 90%;
+  width: 100%;
   height: auto;
   object-fit: cover;
   box-shadow: -20px -20px;

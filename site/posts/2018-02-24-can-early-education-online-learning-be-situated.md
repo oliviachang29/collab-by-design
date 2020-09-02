@@ -11,11 +11,14 @@ featured_image: "/uploads/can-early-education-online.jpg"
 ---
 This week, I had the opportunity to attend a training to test new early learning curricula. The focus of this curricula is for families and children to use scientific inquiry practices to extend the concepts discovered in an online game or app. This curriculum is designed to integrate the media content and to extend the learning through hands-on engagement that will be supported by educators/facilitators in a community-based setting. During this training, I thought about situated learning theory – **could situated learning occur through media content, like online games and apps?**
 
-Lave and Wenger (1991), argue that situated learning is active, participatory, and embedded within an activity, context, and culture. Learning can be a social interaction, where more-capable others (mentors) model the learning to participants. The concept is also attributed to Brown and Duguid’s (1991) work on organizational learning. Brown and Duguid (1991) built on Lave and Wenger’s theory, positioning situated learning as “‘learning-in-working’ best represent\[ing\] the fluid evolution of learning through practice” (p. 41). With these two emerging theories, communities of practice (CoP) developed as a domain where a group of people come together to share and to learn from one another. Cox (2005), emphasizes that communities of practice are a “sustained mutual engagement on an appropriated enterprise.” (p. 11). Therefore, communities of practice is a strategy involving various stakeholders to achieve a common goal to break silos and improve a practice and where situated learning takes place.
+Lave and Wenger (1991), argue that situated learning is active, participatory, and embedded within an activity, context, and culture. Learning can be a social interaction, where more-capable others (mentors) model the learning to participants. The concept is also attributed to Brown and Duguid’s (1991) work on organizational learning. Brown and Duguid (1991) built on Lave and Wenger’s theory, positioning situated learning as “‘learning-in-working’ best representing the fluid evolution of learning through practice” (p. 41). With these two emerging theories, communities of practice (CoP) developed as a domain where a group of people come together to share and to learn from one another. Cox (2005), emphasizes that communities of practice are a “sustained mutual engagement on an appropriated enterprise.” (p. 11). Therefore, communities of practice is a strategy involving various stakeholders to achieve a common goal to break silos and improve a practice and where situated learning takes place.
 
 Here is what we know about situated learning:
 
-**Content**
+* **Content**
+* **Context**
+* **Community**
+* **Participation**
 
 **Context**
 
