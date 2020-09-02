@@ -10,23 +10,20 @@ fields:
     name: text
     label: Link Name
     description: The text used for the link.
+  - type: boolean
+    name: external
+    label: Is the link external?
+    description: Whether the link goes to somewhere not on this site.
+    default: false
   - type: text
     name: url
     label: Link URL
     description: The url of the link.
     showOnly:
       field: external
+      value: true
     config:
       required: false
-  - type: file
-    name: icon
-    label: Icon
-    description: The icon for the Link.
-  - type: boolean
-    name: external
-    label: Is the link external?
-    description: Whether the link goes to somewhere not on this site.
-    default: false
   - name: internal_url
     type: select
     default: []
@@ -42,5 +39,9 @@ fields:
     description: Choose an internal URL from the site.
     showOnly:
       field: external
+  - type: file
+    name: icon
+    label: Icon
+    description: The icon for the Link.
 pages:
 - site/_data/navigation.json
