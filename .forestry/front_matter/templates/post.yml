@@ -4,9 +4,16 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Post Title
   config:
     required: true
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: "<em>Optional </em>The post description to use on the home and blog
+    page. If not provided, it automatically uses the first 30 words of the post."
 - type: datetime
   name: date
   label: Date Published
@@ -25,13 +32,6 @@ fields:
   default: []
   label: tags
   description: Phrases related to the post content
-- name: description
-  type: text
-  config:
-    required: false
-  label: Description
-  description: "<em>Optional </em>The post description to use on the home and blog
-    page. If not provided, it automatically uses the first 30 words of the post."
 pages:
 - site/posts/2018-02-24-can-early-education-online-learning-be-situated.md
 - site/posts/2018-03-09-when-watching-black-mirror-follow-freds-leaduse-tech-with-rather-than-instead-of.md
