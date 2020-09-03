@@ -29,7 +29,8 @@ fields:
     config:
       required: false
       color_format: Hex
-    description: The color of the heading that appears above the paragraph.
+    description: The color of the heading that appears above the paragraph.<br><br>Recommended
+      colors:<br>#FF89BC<br>#FFB469<br>#CBF0E8<br>#F86C5F<br>#01E7CB<br>#FFD672<br>#FFDEB5
   - type: text
     name: title
     label: Heading
