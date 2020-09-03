@@ -18,7 +18,12 @@ fields:
   - type: text
     name: url
     label: Link URL
-    description: The url of the link.
+    description: 'The url of the link. If the link is internal, then the Link URL
+      <strong>does not</strong> need the beginning of the URL (<a href="https://knowledgylab.com"
+      title="https://knowledgylab.com" target="_blank">https://knowledgylab.com</a>).
+      The URL only needs the part after the .com, starting with the “/”.<br><br>Internal
+      example: "/posts"<br>External example: "https://google.com"<br>If the link is
+      external, make sure to <strong>include "</strong>https://" at the beginning!'
     showOnly:
       value: true
     config:
