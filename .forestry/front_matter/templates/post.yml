@@ -10,7 +10,8 @@ fields:
 - type: datetime
   name: date
   label: Date Published
-  description: The publish date for the article.
+  description: The publish date for the article. If the publish date is in the future,
+    then the article will be hidden on the site.
   config:
     date_format: MM/DD/YY
     required: true
