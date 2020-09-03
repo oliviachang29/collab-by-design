@@ -4,11 +4,38 @@ hide_body: true
 fields:
 - type: field_group_list
   name: Socialmedia
-  label: Socialmedia
+  label: Social Media
   fields:
   - type: text
-    name: type
-    label: type
-  - type: text
     name: url
-    label: url
+    label: Link
+    description: 'Should start with <em>http://www.</em><br><br>Example: <em>https://twitter.com/knowledgylab</em>'
+    config:
+      required: false
+    default: ''
+  - name: type
+    type: select
+    default: []
+    config:
+      required: true
+      options:
+      - Twitter
+      - Facebook
+      - Email
+      - Instagram
+      - Linkedin
+      - Github
+      - Youtube
+      - Snapchat
+      - Discord
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Social Media Site
+  description: Edit the social media icons at the bottom of the page.
+  config:
+    labelField: type
+pages:
+- site/_data/socialMedia.json
