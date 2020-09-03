@@ -10,7 +10,7 @@ fields:
   label: description
 - type: text
   name: publish_date
-  label: publish_date
+  label: Presentation Date
 - type: text
   name: location
   label: location
