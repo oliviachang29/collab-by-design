@@ -4,15 +4,18 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: text
   name: location
-  label: location
+  description: Where this was published.
+  label: Publish Location
 - type: file
   name: file
-  label: file
+  label: File
+  description: A PDF of the publication. When users click on the publication, they'll
+    be taken to the PDF.
 pages:
 - site/publications/public-media-connecting-family-learning-across-settings.md
