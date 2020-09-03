@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group_list
   name: Socialmedia
-  label: Social Media
+  label: Social Media Links
   fields:
   - type: text
     name: url
