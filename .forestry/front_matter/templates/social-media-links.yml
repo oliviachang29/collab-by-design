@@ -34,6 +34,7 @@ fields:
         file: 
         path: 
     label: Social Media Site
+    description: This changes the link's icon.
   description: Edit the social media icons at the bottom of the page.
   config:
     labelField: type
