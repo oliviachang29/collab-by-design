@@ -42,6 +42,6 @@ fields:
       schema:
         format: html-blocks
     label: Section Content
-  label: Section
+  label: Sections
 pages:
 - site/_data/about.json
