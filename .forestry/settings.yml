@@ -25,20 +25,6 @@ sections:
   templates:
   - external-post
 - type: heading
-  label: Pages
-- type: document
-  path: site/_data/about.json
-  label: About
-- type: document
-  path: site/_data/contact.json
-  label: Contact
-- type: directory
-  path: site
-  label: Other Pages
-  create: all
-  match: "*.md"
-  new_doc_ext: md
-- type: heading
   label: Work
 - type: directory
   path: site/publications
@@ -58,6 +44,20 @@ sections:
   new_doc_ext: md
   templates:
   - presentation
+- type: heading
+  label: Pages
+- type: document
+  path: site/_data/about.json
+  label: About
+- type: document
+  path: site/_data/contact.json
+  label: Contact
+- type: directory
+  path: site
+  label: Other Pages
+  create: all
+  match: "*.md"
+  new_doc_ext: md
 - type: heading
   label: Settings
 - type: document
