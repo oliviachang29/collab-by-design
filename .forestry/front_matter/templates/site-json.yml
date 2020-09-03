@@ -51,6 +51,14 @@ fields:
   name: newsletter_subtitle
   label: Newsletter Subtitle
   description: The text that appears underneath the Newsletter title.
+- type: text
+  name: workTitle
+  label: Work Title
+  description: The title of the "Work" page.
+- type: text
+  name: workDescription
+  label: Work Description
+  description: The text that appears underneath the title on the work page.
 - type: boolean
   name: criticalCSS
   label: criticalCSS

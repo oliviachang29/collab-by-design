@@ -11,5 +11,7 @@
   "socialImage": "/uploads/socialImage.jpg",
   "newsletter_title": "Subscribe to my newsletter",
   "newsletter_subtitle": "Enter your email address to subscribe to this blog and receive notifications of new posts by email.",
+  "workTitle": "My Work",
+  "workDescription": "Working papers, conferences, and poster paper presentations.",
   "criticalCSS": false
 }

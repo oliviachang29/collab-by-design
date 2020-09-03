@@ -1,15 +1,10 @@
----
-title: My Work
-description: "Working papers, conferences, and poster paper presentations."
----
-
 {% extends 'layouts/base.njk' %}
 
 {# Button #}
 
 {% block content %}
-    {% set introTitle = title %}
-    {% set introDescription = description %}
+    {% set introTitle = site.workTitle %}
+    {% set introDescription = site.workDescription %}
     {% include "partials/global/intro.njk" %}
 
     {# External posts #}
