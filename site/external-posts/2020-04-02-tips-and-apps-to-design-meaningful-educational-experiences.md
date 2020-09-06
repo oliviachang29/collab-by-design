@@ -9,10 +9,9 @@ featured_image: ''
 ---
 _PBS SoCal and KCET, in partnership with LAUSD and in collaboration with California PBS stations, are offering broadcast programming with digital resources that adhere to California’s state curriculum_. [Download this week’s schedule](https://www.pbssocal.org/education/at-home-learning/download-pbs-socal-kcet-klcs-tv-schedules/)
 
-<p>Apps have become increasingly important for classroom education. Apps are now situated in every aspect of our lives, and educational apps comprise a large percentage of this market, according to an article in the Fibreculture Journal. The proliferation of educational apps has raised concerns for early learning educators. How do you choose the best app for your students?</p>
+Apps have become increasingly important for classroom education. Apps are now situated in every aspect of our lives, and educational apps comprise a large percentage of this market, according to an article in the Fibreculture Journal. The proliferation of educational apps has raised concerns for early learning educators. How do you choose the best app for your students?
 
-![](https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg)
-_A mother and two young children sit in their living room to use mobile devices. | PBS SoCal_
+![](https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg "A mother and two young children sit in their living room to use mobile devices. | PBS SoCal")
 
 <p>The International Society for Technology Education has 5 standards to help teachers “design, implement, and assess learning experiences to engage students and improve learning” in the digital space:</p>
 <ol>
