@@ -14,7 +14,6 @@ _PBS SoCal and KCET, in partnership with LAUSD and in collaboration with Califor
 ![](https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg)
 _A mother and two young children sit in their living room to use mobile devices. | PBS SoCal_
 
-
 <p>The International Society for Technology Education has 5 standards to help teachers “design, implement, and assess learning experiences to engage students and improve learning” in the digital space:</p>
 <ol>
 <li>Facilitate and inspire student learning and creativity.</li>
