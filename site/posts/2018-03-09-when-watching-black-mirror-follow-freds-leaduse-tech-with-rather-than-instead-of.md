@@ -1,12 +1,15 @@
 ---
-title: When watching Black Mirror, follow Fred's lead….use tech "with" rather than "instead of"…
-date: "2018-03-09"
-tags: 
+title: When watching Black Mirror, follow Fred's lead….use tech "with" rather than
+  "instead of"…
+date: 2018-03-09
+tags:
 - ECE
 - EdTech
 - Social and Emotional Development
 - Technology
-featured_image: "/uploads/when-watching-black-mirror.jpg"
+featured_image: "/uploads/style3.jpg"
+description: ''
+
 ---
 > _"Computers can be useful machines, especially when they help people communicate in caring ways with each other…"_ -Fred Rogers, 1996.
 
