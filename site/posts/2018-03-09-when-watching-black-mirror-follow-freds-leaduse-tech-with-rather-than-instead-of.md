@@ -7,7 +7,7 @@ tags:
 - EdTech
 - Social and Emotional Development
 - Technology
-featured_image: "/uploads/style3.jpg"
+featured_image: "/uploads/when-watching-black-mirror.jpg"
 description: ''
 
 ---
