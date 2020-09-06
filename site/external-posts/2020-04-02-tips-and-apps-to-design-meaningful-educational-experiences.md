@@ -3,13 +3,18 @@ title: Tips and Apps to Design Meaningful Educational Experiences
 description: How to choose the best app for your students.
 location: PBS SoCal
 external_link: https://www.pbssocal.org/education/at-home-learning/tips-apps-design-meaningful-educational-experiences/
-date: "2020-04-02"
----
+date: 2020-04-02
+featured_image: ''
 
-<p><b><a href="https://www.pbssocal.org/education/at-home-learning/" target="_blank" rel="noopener noreferrer"><img class="alignleft wp-image-25678 size-full" src="https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/03/AHL-logo-square.jpg" alt="" width="75" height="75"></a><em><a href="https://www.pbssocal.org/education/at-home-learning/" rel="noopener noreferrer">At-Home Learning</a></em></b><em>: PBS SoCal and KCET, in partnership with LAUSD and in collaboration with California PBS stations, are offering broadcast programming with digital resources that adhere to California’s state curriculum.&nbsp;<a class="c-link" href="https://www.pbssocal.org/education/at-home-learning/download-pbs-socal-kcet-klcs-tv-schedules/" rel="noopener noreferrer" aria-describedby="slack-kit-tooltip">Download this week’s schedule</a>.</em></p>
+---
+_PBS SoCal and KCET, in partnership with LAUSD and in collaboration with California PBS stations, are offering broadcast programming with digital resources that adhere to California’s state curriculum_. [Download this week’s schedule](https://www.pbssocal.org/education/at-home-learning/download-pbs-socal-kcet-klcs-tv-schedules/)
 
 <p>Apps have become increasingly important for classroom education. Apps are now situated in every aspect of our lives, and educational apps comprise a large percentage of this market, according to an article in the Fibreculture Journal. The proliferation of educational apps has raised concerns for early learning educators. How do you choose the best app for your students?</p>
-<figure id="attachment_26298" aria-describedby="caption-attachment-26298" style="width: 1024px" class="wp-caption aligncenter"><img class="size-large wp-image-26298" src="https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg" alt="" width="1024" height="576" srcset="https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg 1024w, https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-300x169.jpg 300w, https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-768x432.jpg 768w, https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1536x864.jpg 1536w, https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-2048x1152.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption id="caption-attachment-26298" class="wp-caption-text">A mother and two young children sit in their living room to use mobile devices. | PBS SoCal</figcaption></figure>
+
+![](https://dj3b4v4vfrnun.cloudfront.net/wp-content/uploads/2020/04/DSC00143-1024x576.jpg)
+_A mother and two young children sit in their living room to use mobile devices. | PBS SoCal_
+
+
 <p>The International Society for Technology Education has 5 standards to help teachers “design, implement, and assess learning experiences to engage students and improve learning” in the digital space:</p>
 <ol>
 <li>Facilitate and inspire student learning and creativity.</li>
@@ -18,7 +23,7 @@ date: "2020-04-02"
 <li>Promote and model digital citizenship and responsibility.</li>
 <li>Engage in professional growth and leadership.</li>
 </ol>
-<p>It is important to note that different educational apps provide different levels of engagement —&nbsp; active, engaged, meaningful, socially interactive, and in the service of a learning goal. If you want to make sure that an app is contributing to meaningful learning, you can ask yourself the following questions:</p>
+<p>It is important to note that different educational apps provide different levels of engagement —  active, engaged, meaningful, socially interactive, and in the service of a learning goal. If you want to make sure that an app is contributing to meaningful learning, you can ask yourself the following questions:</p>
 <ul>
 <li>Does the app ask the child to go beyond rote learning (a memorization technique based on repetition)?</li>
 <li>Does the app experience tap into the child’s personal history, activate prior knowledge of a subject, or build a rich narrative?</li>
@@ -35,12 +40,12 @@ date: "2020-04-02"
 <p><strong><a href="https://pbskids.org/apps/daniel-tigers-grr-ific-feelings.html" target="_blank" rel="noopener noreferrer">Daniel Tiger’s Grr-ific Feelings</a></strong></p>
 <p>In this app, students can build their social-emotional learning skills by identifying emotions. Daniel Tiger and his friends learn to look at people’s faces to see what they are feeling. The neighbor friends take turns making faces for different feelings.</p>
 <p><strong>How to utilize it at home:</strong> Encourage families to use this app to have kids draw pictures of feelings or take pictures of their faces showing different emotions. For example, kids can write a story about a time students were scared, mad, brave, or happy. Encourage families to integrate physical objects like index cards or sticky notes to create matching games by writing the names of emotions on one card and drawing it out on another card. Play a game where you match the name of the emotions to drawings of the emotions. This is a great way to create a hybrid digital portfolio to show teachers and classmates when they go back to school.</p>
-<p>&nbsp;</p>
+<p> </p>
 <p>Apps like these can provide an immersive learning experience by integrating technology with guidance from families at home. It doesn’t have to be perfect! And it doesn’t have to mirror classroom instruction either. Instead, think of apps as a great tool to rethink instruction in home settings. We encourage you to explore all the many different apps out there, keeping in mind the ISTE standards mentioned above.</p>
 <p>Remember, technology and media should only be a supplement to other types of learning activities, according to <a href="https://www.naeyc.org/sites/default/files/globally-shared/downloads/PDFs/resources/topics/PS_technology_WEB.pdf" target="_blank" rel="noopener noreferrer">NAEYC and Fred Rogers Center</a>:</p>
 <blockquote><p>“Technology and media should not replace activities such as creative play, real-life exploration, physical activity, outdoor experiences, conversation, and social interactions that are important for children’s development. Technology and media should be used to support learning, not an isolated activity, and to expand young children’s access to new content.”</p></blockquote>
-<p>&nbsp;</p>
+<p> </p>
 <p><b>Sources</b></p>
 <p><span style="font-weight: 400;">Morris, Jeremy W., and Evan Elkins (2015). “FCJ-181 There‘s a History for That: Apps and Mundane Software as Commodity.” </span><i><span style="font-weight: 400;">The Fibreculture Journal</span></i><span style="font-weight: 400;"> 25: 63–88. doi:</span><a href="https://dx-doi-org.lib.pepperdine.edu/10.1530"><span style="font-weight: 400;">10.15307/fcj.25.181.2015</span></a></p>
-<p><span style="font-weight: 400;">Hirsh-Pasek, K., Zosh, J., Golinkoff, R., Gray, J., Robb, M., &amp; Kaufman, J. (2015). Putting education in “educational” apps: Lessons from the science of learning. </span><i><span style="font-weight: 400;">Psychological Science in the Public Interest : A Journal of the American Psychological Society,</span></i> <i><span style="font-weight: 400;">16</span></i><span style="font-weight: 400;">(1), 3-34. doi:10.1177/1529100615569721</span></p>
-<p><span style="font-weight: 400;"><a href="https://www.naeyc.org/sites/default/files/globally-shared/downloads/PDFs/resources/topics/PS_technology_WEB.pdf" target="_blank" rel="noopener noreferrer">NAEYCE &amp; Fred Rogers Center</a>, 2012, p. 5.</span></p>
+<p><span style="font-weight: 400;">Hirsh-Pasek, K., Zosh, J., Golinkoff, R., Gray, J., Robb, M., & Kaufman, J. (2015). Putting education in “educational” apps: Lessons from the science of learning. </span><i><span style="font-weight: 400;">Psychological Science in the Public Interest : A Journal of the American Psychological Society,</span></i> <i><span style="font-weight: 400;">16</span></i><span style="font-weight: 400;">(1), 3-34. doi:10.1177/1529100615569721</span></p>
+<p><span style="font-weight: 400;"><a href="https://www.naeyc.org/sites/default/files/globally-shared/downloads/PDFs/resources/topics/PS_technology_WEB.pdf" target="_blank" rel="noopener noreferrer">NAEYCE & Fred Rogers Center</a>, 2012, p. 5.</span></p>
