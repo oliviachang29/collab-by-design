@@ -17,11 +17,17 @@ $left-padding: $SCALE-5;
   margin-bottom: $SCALE-1;
 }
 
+$intro__image-size-sm: 55vw;
+$intro__image-size-md: 23vw;
 .intro__image {
-  width: 70%;
-  @media (max-width: $md) {
-    display: block;
-    margin: 0 auto $SCALE-2;
+  display: block;
+  margin: 0 auto $SCALE-2;
+  width: $intro__image-size-sm;
+  height: $intro__image-size-sm;
+  @media (min-width: $md) {
+    margin: 0;  
+    width: $intro__image-size-md;
+    height: $intro__image-size-md;
   }
 }
 
@@ -58,6 +64,7 @@ $home-intro-padding: calc(#{$SCALE-4} + 2vh);
 .home-intro__image {
   box-shadow: 2.5rem -2.5rem 0 0 $pink;
 }
+
 .home-intro__right {
   @media (min-width: $md) {
     padding: $home-intro-padding 0;

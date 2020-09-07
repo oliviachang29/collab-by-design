@@ -62,3 +62,14 @@ footer {
     }
   }
 }
+
+.footer__right {
+  text-align: center;
+  @media (min-width: $md) {
+    text-align: right;
+  }
+}
+
+.footer__attribution-link {
+  color: $COLOR_MID
+}

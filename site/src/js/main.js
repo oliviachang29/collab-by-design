@@ -1,7 +1,7 @@
 // Write your javascript here...
 // ES6 will be compiled with Webpack
 
- $('img')
+ $('.base-container img')
    .unveil({
      offset: 200,
      placeholder: "/lazy.jpg",
