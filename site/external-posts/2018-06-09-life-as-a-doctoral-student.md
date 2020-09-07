@@ -14,7 +14,7 @@ tags:
 - Pepperdine
 - Reflection
 featured_image: ''
-date: 
+date: "2018-06-09"
 
 ---
 _June 6 is National Higher Ed day. We asked our resident doctoral student, Early Learning Manager Susana Grimm, to reflect on her first year as an EdD student at Pepperdine. Susie discussed the topic with some classmates, and found that a lot of the learning has been personal._

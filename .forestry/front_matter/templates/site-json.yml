@@ -9,6 +9,10 @@ fields:
   name: url
   label: Site URL
   description: The full URL of the site.
+- type: file
+  name: homeIntroImage
+  label: Home Intro Image
+  description: The image that appears in the home intro.
 - type: text
   name: homeIntroTitle
   label: Home Intro Title
