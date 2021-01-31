@@ -17,7 +17,8 @@ fields:
 - type: file
   name: file
   label: File
-  description: Can be a PDF or an image. When users click on the presentation, they'll be taken to this file.
+  description: Can be a PDF or an image. When users click on the presentation, they'll
+    be taken to this file.
 pages:
 - site/presentations/broadening-participation-in-stem-re-imagining-the-role-of-latino-parents-as-equal-partners-in-stem-learning.md
 - site/presentations/community-engagement-exploring-ready-to-learns-role-with-community-partnerships.md
