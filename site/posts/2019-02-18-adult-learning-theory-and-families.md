@@ -1,15 +1,16 @@
 ---
 title: Adult learning theory & families
-date: "2019-02-18"
+date: 2019-02-18
 tags:
-  - adult learning theory
-  - ECE
-  - Parent Engagement
-  - STEM
-  - STEM Family Engagement
-featured_image: "/uploads/adult-learning-theory.jpg"
----
+- adult learning theory
+- ECE
+- Parent Engagement
+- STEM
+- STEM Family Engagement
+featured_image: "/uploads/makerproject.jpg"
+description: ''
 
+---
 In my previous blog, I wrote about the need to engage families in playful learning experiences while thinking of them as adult learners, especially in a social context.
 
 According to Knowles (2015), andragogy refers to adult learning and the framework of helping adults learn. Pedagogy serves as a foundation for the development of thought, instruction and advancement of knowledge (The history of pedagogy, 1888)—especially in learners who know little or lack a full understanding of a topic. While andragogy builds on adults’ previous experiences into the learning process, this process can be real-life applications in which adult learners acquire knowledge, skills, and abilities.
