@@ -1,6 +1,7 @@
 ---
-title: "The Dilemma in Raising Digital Kids: Embrace the Positive Benefits and Let Go of the Fears"
-date: "2018-03-13"
+title: 'The Dilemma in Raising Digital Kids: Embrace the Positive Benefits and Let
+  Go of the Fears'
+date: 2018-03-13
 tags:
 - AI
 - ECE
@@ -9,7 +10,9 @@ tags:
 - EdTechChat
 - Relationships
 - Technology
-featured_image: "/uploads/dilemma-raising-digital-kids.png"
+featured_image: "/uploads/family.jpg"
+description: ''
+
 ---
 For the past weeks, I’ve been watching _[Black Mirror](https://en.wikipedia.org/wiki/Black_Mirror)_, and I have been reading about Artificial Intelligence (AI). What I noticed in both _Black Mirror_ and AI, is that both share themes of fear and the unknown. Black Mirror makes a [social commentary](http://knowledgylab.com/470/) about technology and media use - the human condition cannot exist when embracing technology; while AI detractors worry that computers will take over the humans. While both arguments are valid, the negative messages are more pronounced than the positive messages. Messages like this one [https://www.theverge.com/2018/3/8/17095582/smartphone-screen-time-parenting-child-development](https://www.theverge.com/2018/3/8/17095582/smartphone-screen-time-parenting-child-development) ,and this one [http://variety.com/2018/digital/features/smartphone-addiction-apps-apple-facebook-google-1202724489/](http://variety.com/2018/digital/features/smartphone-addiction-apps-apple-facebook-google-1202724489/) Which provides this quote on the technology and media debate:
 
