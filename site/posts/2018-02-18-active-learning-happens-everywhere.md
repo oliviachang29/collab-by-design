@@ -1,11 +1,12 @@
 ---
 title: Active Learning Happens Everywhere
-date: "2018-02-18"
+date: 2018-02-18
 tags:
 - EdTech
 - Informal Learning
 - Parent Engagement
-featured_image: "/uploads/active-learning-happens-everywhere.jpeg"
+featured_image: "/uploads/mathactivity.jpg"
+
 ---
 On October 2017, a mother who attended our STEM parent workshop expressed to me that since attending the program, where she learned how to use technology and digital content, like STEM-based games and online activities, she noticed a vast improvement in her son's learning. She was astounded at how digital and technology helped her son not only with math skills but also with language development. From working with kids and parents like the mother who attended our workshop, I've learned that educational media and technology can play a crucial role in sparking a love for learning outside the classroom - especially in underserved communities.
 
