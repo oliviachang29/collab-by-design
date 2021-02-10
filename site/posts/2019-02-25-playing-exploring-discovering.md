@@ -1,17 +1,17 @@
 ---
 title: Playing, exploring, and discovering inspired by media & technology
-date: "2019-02-25"
+date: 2019-02-25
 tags:
-  - Early Childhood
-  - early learning
-  - ECE
-  - EdChat
-  - EdTech
-  - media
-  - Playful Learning Experiences
-featured_image: "/uploads/playing-exploring.jpg"
----
+- Early Childhood
+- early learning
+- ECE
+- EdChat
+- EdTech
+- media
+- Playful Learning Experiences
+featured_image: "/uploads/playful.jpg"
 
+---
 This past week, as part of my regular job, I co-presented and trained several public media stations and their community partners on a space and earth science curricula. The components of this curriculum include activities for children and families around space and earth science missions, the creation of spacecrafts, investigations, and play space-themed games. These curricula was inspired by *[Ready Jet Go!](https://pbskids.org/readyjetgo/)* A show for children ages 3 to 8 to learn about space, earth science, and technology to encourage in children a sense of curiosity and wonder about our world and space (PBS Parents, n.d.).
 
 In writing this curriculum, our team was inspired by several media collections of _Ready Jet Go!_ **[clips](https://pbskids.org/readyjetgo/video.html)**, **[episodes](https://pbskids.org/readyjetgo/video.html)**, [**online games**](https://pbskids.org/readyjetgo/games.html), and **[apps](https://pbskids.org/apps/ready-jet-go-space-explorer.html)**. We used media and technology as creative tools to help us evolve as creative thinkers in developing an early childhood, project-based, out-of-school curriculum for children and families.
