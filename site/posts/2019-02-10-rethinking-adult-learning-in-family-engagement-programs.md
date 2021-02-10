@@ -7,7 +7,7 @@ tags:
 - Family Engagement
 - social learning theory
 - STEM
-featured_image: "/uploads/makerproject.jpg"
+featured_image: "/uploads/cultures.jpg"
 description: ''
 
 ---
