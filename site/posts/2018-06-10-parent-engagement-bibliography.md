@@ -1,14 +1,15 @@
 ---
 title: Parent Engagement Bibliography
-date: "2018-06-10"
+date: 2018-06-10
 tags:
 - Bibliography
 - Parent Engagement
 - Research
 - Research Studies
-featured_image: "/uploads/parent-engagement-bibliography.jpg"
----
+featured_image: "/uploads/screen-shot-2021-02-09-at-7-22-48-pm.png"
+description: ''
 
+---
 As researchers dive more in-depth into a topic to study, an annotated bibliography comes handy. The following Parent Engagement studies are in Bibliography format, describing ten research studies (including mix, qualitative, & quantitative).
 
 Balli, S. J., Demo, D. H., & Wedman, J. F. (1998). Family Involvement with Children's Homework: An Intervention in the Middle Grades. _Family Relations, 47,_ 2, 149.
