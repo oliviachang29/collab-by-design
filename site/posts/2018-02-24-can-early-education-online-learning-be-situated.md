@@ -6,7 +6,7 @@ tags:
 - ECE
 - EdTech
 - Situated Learning
-featured_image: "/uploads/teacher.jpg"
+featured_image: "/uploads/community.jpg"
 
 ---
 This week, I had the opportunity to attend a training to test new early learning curricula. The focus of this curricula is for families and children to use scientific inquiry practices to extend the concepts discovered in an online game or app. This curriculum is designed to integrate the media content and to extend the learning through hands-on engagement that will be supported by educators/facilitators in a community-based setting. During this training, I thought about situated learning theory – **could situated learning occur through media content, like online games and apps?**
