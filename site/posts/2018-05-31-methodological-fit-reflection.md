@@ -1,13 +1,14 @@
 ---
 title: Methodological Fit Reflection
-date: "2018-05-31"
+date: 2018-05-31
 tags:
-  - Graduate School
-  - Research
-  - Research Study
-featured_image: "/uploads/methdological-reflection.jpg"
----
+- Graduate School
+- Research
+- Research Study
+featured_image: "/uploads/screen-shot-2021-02-09-at-7-24-12-pm.png"
+description: ''
 
+---
 While I’d like to say that I feel confident in understanding research methodologies in-depth, I am still processing which methods best fit the type of work I’d like to research for my dissertation. Although I haven’t selected a specific phenomenon to research, I like to explore STEM family engagement in Latino Families. Central to the questions of “how to research?” and “what to research?” is my perspective of why this research? Thus, while reading Creswell & Creswell (2018) and the other assigned articles, I kept thinking about the motivation of my study. Why is my study important? Why research STEM Latino Family Engagement?
 
 Creswell & Creswell (2018) writes that researcher’s personal experiences and insights can influence the type of research methods one chooses. While I do not consider myself committed to a qualitative research approach and thus open to exploring other methods, my background, work experience, and my enjoyment for “personal interviews” and “close-up observations” continue to lead me to the qualitative approach. When I reflect on the qualitative research approach and why I keep going back to choosing this method, I think about the social constructivism epistemology that guides my current work as an education practitioner. According Aram & Salipante Jr. (2003), individuals or groups affected by feelings, beliefs, and thoughts, are also situated in historical and cultural contexts. Thus, knowledge is understood from the individual or group and how they make sense of that experience (Aram & Salipante Jr., 2003). Therefore, when I think about the narratives of science for STEM family engagement, these narratives must include Latino families drawing connections from their historicity and everyday life experiences of what STEM and science mean for them. STEM family engagement programs should recognize science as rooted in cultural practices.
