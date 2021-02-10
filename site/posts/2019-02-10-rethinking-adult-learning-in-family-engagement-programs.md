@@ -1,13 +1,15 @@
 ---
 title: Rethinking adult learning in family engagement programs
-date: "2019-02-10"
+date: 2019-02-10
 tags:
 - adult learning theory
 - early learning
 - Family Engagement
 - social learning theory
 - STEM
-featured_image: "/uploads/rethinking-adult-learning.jpg"
+featured_image: "/uploads/makerproject.jpg"
+description: ''
+
 ---
 _“Every function in the child’s cultural development appears twice: First, on the social level, and later, on the individual level, First between people and then inside the child.”_ - Vygotsky (1896-1934)
 
