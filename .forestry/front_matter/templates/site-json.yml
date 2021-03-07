@@ -42,17 +42,35 @@ fields:
   name: numExternalPostsHomePage
   label: Number of External Posts on Home Page
   description: Number of latest external posts to show on the home page.
+
+- type: number
+  name: numLatestPublicationsWorkPage
+  label: Number of Publications on Work Page
+  description: Number of latest publications to show on the work page.
+- type: number
+  name: numLatestPresentationsWorkPage
+  label: Number of Presentations on Home Page
+  description: Number of latest presentations to show on the work page.
+- type: number
+  name: numLatestExternalPostsWorkPage
+  label: Number of External Posts on Work Page
+  description: Number of latest external posts to show on the work page.
+- type: file
+  name: viewAllPresentationsFile
+  label: View All Presentations File
+  description: The file that is shown when visitors click "See More" on the Work Page.
+
 - type: file
   name: socialImage
   label: Social Image
   description: The preview image that appears when the site is shared on Twitter,
     Facebook, and other social platforms.
 - type: text
-  name: newsletter_title
+  name: newsletterTitle
   label: Newsletter Title
   description: The large text that appears next to the "Subscribe" form.
 - type: text
-  name: newsletter_subtitle
+  name: newsletterSubtitle
   label: Newsletter Subtitle
   description: The text that appears underneath the Newsletter title.
 - type: text

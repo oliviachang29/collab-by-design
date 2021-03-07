@@ -1,6 +1,7 @@
 {
   "image": "/uploads/headshot.jpg",
   "title": "About Me",
+  "cvFile": "/uploads/cv.pdf",
   "description": "Susana has been working in the field of education for the past 10 years developing and implementing innovative education initiatives. She currently oversees PBS SoCal’s early learning initiative in technology and media for learning with a focus on parent engagement.",
   "sections": [
     {

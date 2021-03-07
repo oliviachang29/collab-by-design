@@ -15,6 +15,13 @@
         </div>
       </div>
     </div>
+
+    {# CV Button #}
+    {% set buttonText = "Download CV" %}
+    {% set buttonClasses = 'btn-center' %}
+    {% set buttonLink = about.cvFile %}
+    {% include "partials/global/button.njk" %}
+
     {% for section in about.sections %}
       <div class="about-section">
         {% set sectionTitle = section.title %}

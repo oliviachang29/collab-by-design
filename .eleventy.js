@@ -16,6 +16,25 @@ const criticalCSSTransform = require("./site/transforms/critical-css-transform.j
 // Import data files
 const site = require("./site/_data/site.json");
 
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 module.exports = function (config) {
   // Filters
   config.addFilter("dateFilter", dateFilter);
@@ -74,7 +93,7 @@ module.exports = function (config) {
       .getFilteredByGlob("./site/external-posts/*.md")
       .reverse()
       .map((post, i) => {
-        post.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        post.data.color = shuffle(colors)[i > colors.length - 1 ? i % colors.length : i];
         return post;
       });
   });
@@ -94,7 +113,7 @@ module.exports = function (config) {
       .getFilteredByGlob("./site/presentations/*.md")
       .reverse()
       .map((item, i) => {
-        item.data.color = colors[i > colors.length - 1 ? i % colors.length : i];
+        item.data.color = shuffle(colors)[i > colors.length - 1 ? i % colors.length : i];
         return item;
       });
   });

@@ -20,6 +20,10 @@ fields:
     maxSize: 64
   label: image
   description: The square image that appears next to the page title and description.
+- type: file
+  name: cvFile
+  label: CV File
+  description: Upload CV file (pdf).
 - type: field_group_list
   name: sections
   fields:

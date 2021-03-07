@@ -7,37 +7,43 @@
     {% set introDescription = site.workDescription %}
     {% include "partials/global/intro.njk" %}
 
-    {# External posts #}
-    {% set listHeading = 'Publications' %}
-    {% set collapseTarget = 'publications-collapse' %}
-    {% set listItems = collections
+    {% set publications = collections
         .publications
-        .slice(0, 4) %}
-    {% set hiddenListItems = collections
-        .publications
-        .slice(4, collections.publications.size) %}
-    {% include "partials/list/work-list.njk" %}
+        .slice(0, site.numLatestPublicationsWorkPage) %}
+    {% set presentations = collections
+        .presentations
+        .slice(0, site.numLatestPresentationsWorkPage) %}
+    {% set externalPosts = collections
+        .externalPosts
+        .slice(0, site.numLatestExternalPostsWorkPage) %}
 
     {# External posts #}
-    {% set listHeading = 'Presentations' %}
-    {% set collapseTarget = 'presentations-collapse' %}
-    {% set listItems = collections
-        .presentations
-        .slice(0, 4) %}
-    {% set hiddenListItems = collections
-        .presentations
-        .slice(4, collections.presentations.size) %}
-    {% include "partials/list/work-list.njk" %}
+    {% set sectionTitle = 'Latest Work' %}
+    {% set sectionHeadingClass = 'work-section-heading' %}
+    {% include "partials/global/section-heading.njk" %}
 
-    {# External posts #}
-    {% set listHeading = 'External posts' %}
-    {% set collapseTarget = 'external-posts-collapse' %}
-    {% set listItems = collections
-        .externalPosts
-        .slice(0, 4) %}
-    {% set hiddenListItems = collections
-        .externalPosts
-        .slice(4, collections.externalPosts.size) %}
-    {% include "partials/list/work-list.njk" %}
+    <div class="list">
+        <div class="row list-row work-list-row list-row-no-padding-bottom">
+
+            {% for item in publications %}
+                {% include "partials/list/work-list-item.njk" %}
+            {% endfor %}
+
+            {% for item in presentations %}
+                {% include "partials/list/work-list-item.njk" %}
+            {% endfor %}
+
+            {% for item in externalPosts %}
+                {% include "partials/list/work-list-item.njk" %}
+            {% endfor %}
+
+        </div>
+    </div>
+    
+    {# See More Button #}
+    {% set buttonText = "See More" %}
+    {% set buttonClasses = 'btn-center' %}
+    {% set buttonLink = site.viewAllPresentationsFile %}
+    {% include "partials/global/button.njk" %}
 
 {% endblock %}
